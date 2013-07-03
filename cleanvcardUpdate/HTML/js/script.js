@@ -217,8 +217,8 @@ var styles = [
 		      ],
 				
 				// Lagitute and longitude for your location goes here
-		       lat = 33.997669,
-		       lng = -6.847868,
+		       lat = 40.747598,
+		       lng = -74.004746,
 		
 			  // Create a new StyledMapType object, passing it the array of styles,
 			  // as well as the name to be displayed on the map type control.
