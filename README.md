@@ -1,4 +1,4 @@
 agconti.com
 ===========
 
-my personal website.
+personal website, and supporting material.
