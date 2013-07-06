@@ -469,10 +469,11 @@ h1.mainTitle:after {
     content: "";
     display: block;
     left: 0;
-    position: absolute;
+    position: relative;
     top: 58%;
     width: 100%;
     z-index: 0;
+    margin-top:10px;
 
 }
 
