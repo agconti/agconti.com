@@ -641,7 +641,16 @@ h1.mainTitle:after {
 .percent90 {
     width: 90%;
 }
-.percent50 {
+.percent85 {
+    width: 85%;
+}
+.percent80 {
+    width: 80%;
+}
+.percent75 {
+    width: 75%;
+}
+.percent70 {
     width: 70%;
 }
 .percent60 {
@@ -659,7 +668,7 @@ h1.mainTitle:after {
 	position:relative;
 }
 
-
+/* i dont like it 
 #testimonials:after {
     color: #F4F4F4;
     content: ",,";
@@ -671,7 +680,7 @@ h1.mainTitle:after {
     z-index: 0;
 }
 
-
+*/
 
 #testimonials blockquote{
 	font-family:Georgia;
