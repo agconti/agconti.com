@@ -463,7 +463,7 @@ h1.mainTitle:after {
 	padding-right:10px;
 	
 }
-
+/* gray bars
 .columns_Three h2:before{
 	border-bottom: 1px solid #efefef;
     content: "";
@@ -476,7 +476,7 @@ h1.mainTitle:after {
     margin-top:10px;
 
 }
-
+*/
 
 .columns_Three > p{
 	color:#999999;
@@ -513,7 +513,8 @@ h1.mainTitle:after {
 	position:relative;
 }
 /* im the little gren bar */
-#quote:after {
+
+/*#quote:after {
     background: none repeat scroll 0 0 #04C3A5;
 	    bottom: 124px;
 	    content: "";
@@ -522,7 +523,7 @@ h1.mainTitle:after {
 	    position: absolute;
 	    width: 120px;
 }
-
+*/
 #quote h1 {
     font-size: 26px;
     font-weight: 200;
@@ -804,12 +805,15 @@ ul#category .current a:after {
 }
 
 #works .item{
-	
+	display: inline-block;
+    overflow: hidden;
 	float:left;
 	margin-right:27px;
 	margin-bottom:20px;
 	position:relative;
 }
+
+/* we need to add text align center to li elements here */
 
 #works .hgroup{
 	background:#efefef;
