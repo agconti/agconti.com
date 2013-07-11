@@ -380,6 +380,12 @@ ul#navi .active:after {
 
 }
 
+#resume_item{
+	list-style: inside;
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
 h1.mainTitle {
     border-bottom: 1px solid #efefef;
     color: #444444;
