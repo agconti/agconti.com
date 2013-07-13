@@ -456,6 +456,7 @@ h1.mainTitle:after {
     text-align: center;
     width: 233px;
 	position:relative;
+
 }
 
 
@@ -469,9 +470,9 @@ h1.mainTitle:after {
 	padding-right:10px;
 	
 }
-/* gray bars
+
 .columns_Three h2:before{
-	border-bottom: 1px solid #efefef;
+	/*border-bottom: 1px solid #efefef;*/
     content: "";
     display: block;
     left: 0;
@@ -482,7 +483,7 @@ h1.mainTitle:after {
     margin-top:10px;
 
 }
-*/
+
 
 .columns_Three > p{
 	color:#999999;
@@ -520,8 +521,8 @@ h1.mainTitle:after {
 }
 /* im the little gren bar */
 
-/*#quote:after {
-    background: none repeat scroll 0 0 #04C3A5;
+#quote:after {
+    /*background: none repeat scroll 0 0 #04C3A5;*/
 	    bottom: 124px;
 	    content: "";
 	    height: 1px;
@@ -529,7 +530,7 @@ h1.mainTitle:after {
 	    position: absolute;
 	    width: 120px;
 }
-*/
+
 #quote h1 {
     font-size: 26px;
     font-weight: 200;
@@ -856,7 +857,6 @@ ul#category .current a:after {
 	font-weight:100;
 }
 
-
 /*End portfolio*/
 
 
@@ -1085,7 +1085,7 @@ form{
 
 #socialsFooter {
 	
-    margin-left: 410px;
+    margin-left: 390px;
     margin-top: 12px;
 }
 
