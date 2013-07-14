@@ -1085,7 +1085,7 @@ form{
 
 #socialsFooter {
 	
-    margin-left: 390px;
+    margin-left: 392px;
     margin-top: 12px;
 }
 
@@ -1217,7 +1217,7 @@ form{
 	#info{width:360px;float:none;}
 	.arrowFeed {left: 191px;top: 259px;}
 	.tweet_list{height:145px;}
-	#socialsFooter{margin-left:120px;}
+	#socialsFooter{margin-left:145px;}
 	
 }
 
@@ -1263,7 +1263,7 @@ form{
 	#contactForm input#submit {-webkit-appearance: none;}
 	.arrowFeed {left: 109px;top: 384px;}
 	#pageFooter{padding:40px 22px 38px;}
-	#socialsFooter{margin-left:30px;}
+	#socialsFooter{margin-left:52px;}
 	
 }
 
