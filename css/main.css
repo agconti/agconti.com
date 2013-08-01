@@ -452,9 +452,9 @@ h1.mainTitle:after {
 
 .columns_Three {
     float: left;
-    margin-right: 13px;
+    margin-right: 75px;
     text-align: center;
-    width: 273px;
+    width: 233px;
 	position:relative;
 
 }
@@ -501,7 +501,7 @@ h1.mainTitle:after {
 	width:100px;
 	height:100px;
 	margin-bottom:15px;
-	margin-left:81px;
+	margin-left:58px;
 	border:4px solid #efefef;
 	position:relative;
 }
