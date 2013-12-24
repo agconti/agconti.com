@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="description" content="Andrew Conti Personal Website" />
-<meta name="keywords" content="Andrew Conti, Andrew, Conti, agconti, Andrew G. Conti, Python, Data Analysis, Analysis, econometrics, developer, python trading, trading, financial modeling, modeling, modeler, pandas, numpy, Python, NumPy, SciPy, Pandas, Matplotlib, StatsModels, C++, VBA, HTML5, CSS, JavaScript, Django, Hadoop, Pig, SQLite3, Git,I Python, IPython NoteBook, Sublime Text 2, Visual Studio Express, Eclipse, Chinese, Mandarin, Mandarin Chinese, Data Mining, Big Data, Economics, Chinese IPO, research, research analyst, hedgefunds, quant, quatitative analysis, " />
+<meta name="keywords" content="Andrew Conti, Andrew, Conti, agconti, Andrew G. Conti, Python, Data Analysis, Analysis, econometrics, developer, python trading, trading, financial modeling, modeling, modeler, pandas, numpy, Python, NumPy, SciPy, Pandas, Matplotlib, StatsModels, C++, VBA, HTML5, CSS, JavaScript, Django, Hadoop, Pig, SQLite3, Git, IPython, IPython NoteBook, Sublime Text 2, Visual Studio Express, Eclipse, Chinese, Mandarin, Mandarin Chinese, Data Mining, Big Data, Economics, Chinese IPO, research, research analyst, hedgefunds, quant, quatitative analysis, " />
 <meta name="author" content="Andrew Conti" />
 <meta name="template_author" content="Benaissa Ghrib" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -38,7 +38,7 @@
 
 
 <body>
-	
+
 
 <!--Wrapper-->
 <div id="wrapper">
@@ -52,7 +52,7 @@
 				<h1><a href="#wrapper">Andrew<span>Conti</span></a></h1>
 				</div>
 				<!--End logo-->
-				
+
 					<!--Navigation-->
 				<div id="navigation" class="clearfix">
 
@@ -67,8 +67,8 @@
 					</nav>
 					</div>
 					<!--End navigation-->
-				
-				
+
+
 					<!--Socials-->
 					<ul id="socials">
 
@@ -95,9 +95,9 @@
 			<!--End header-->
 		</div>
 		<!--End inner header-->
-	</section>	
+	</section>
 	<!--End main header-->
-	
+
 	<!--Main content-->
 	<div id="mainContent" class="clearfix">
 		<!--Slider-->
@@ -111,7 +111,7 @@
 				</div>
 		</div>
 		<!--End slider-->
-		
+
 		<!--Inner Content-->
 		<div id="innerContent" class="clearfix">
 			<!--Anota-->
@@ -120,12 +120,12 @@
 				<img width='425' src="images\andrew_logo\angieroo-headericonwhite.png">
 				<!--<h1>Andrew Conti</h1>
 				<h2> {developer} &cup; {statistician} &cup; {economist}</h2> <!--I am a Statistician / Developer-->
-				
+
 				</div>
-				<div class="arrAnota"></div>	
+				<div class="arrAnota"></div>
 			</div>
 			<!--End anota-->
-			
+
 		<!--About me-->
 			<section id="about" class="clearfix">
 				<!--Title-->
@@ -134,28 +134,29 @@
 					<h1>About me</h1>
 					<h4>I'm more than just a good typer...</h4><!---->
 					</div>
-					<div class="titleArrow"></div>	
+					<div class="titleArrow"></div>
 				</div>
 				<!--End title-->
-				
+
 				<!--Inner about-->
 				<div id="innerAbout">
 				<!--Introduction-->
 				<div class="intro">
-					<h1>I am a data analyst, statistical modeler, and developer.</h1>
+					<h1>I am a full stack developer currently working at Fueled.</h1>
 					<p>
-						 I have experience in machine learning and particularly favor econometric techniques to create predictive models to derive actionable insights from data. I also specialize in developing statistical tooling and automating back office functions in Python. Outside of work I enjoy soccer, rock climbing, Marchtial arts, and constantly jam to rock and funk.
+						  I focus on creating beautiful and and intuitive web applications using the latest html, CSS, and JavaScript techniques. I also have strong interests in Data Science, quantitative economic analysis and creating pricing models. Outside of my development projects, I regularly conduct academic research and in my free time I enjoy soccer, rock climbing, martial arts, and constantly jam to rock and funk.
+
 					</p>
 				</div>
 				<div><p></p></div>
 				<div></div>
 				<!--End introduction-->
-				
-					
+
+
 
 				<!--Resume-->
 				<div id="resume" class=" clearfix">
-				
+
 					<!--Education-->
 								<article id="education" ><!--class="columns_Two "-->
 											<h1 class="mainTitle clearfix">Education</h1>
@@ -171,33 +172,40 @@
 
 								</article>
 								<!--End education-->
-								
-								
+
+
 									<!--Software dev Experience-->
 												<article id="experience"> <!--class="columns_Two noMarchginRight"-->					<h1 class="mainTitle clearfix">
 														Software Development Experience
 													</h1>
-															<!--CRM-->
+
 															<div class="box">
 															<div>
-																<h4>Catastrophic &amp; Rehabilitative Management &ndash; IT Consultant &amp; Developer</h4>  
-																<h6>March 2013 &ndash; Present</h6>
+																<h4>Fueled &ndash; Full Stack Developer, Consultant</h4>
+																<h6>2013 &ndash; Present</h6>
 															</div>
 																<ul class='resume_list'>
-																	<li id='resume_item'>Created the technological plan to scale the rapidly growing business’s IT infrastructure.</li>
-																	<li id='resume_item'>Created the plan for a HIPPA complainant central sever in Amazon’s EC2 cloud to manage the firm's sensitive information.</li>
-																	<li id='resume_item'>Developed a proprietary database GUI using Python and PyQt to securely interact with a SQLite database stored on the central cloud server.</li> 
-																	<li id='resume_item'>Used Git to manage the software’s development life cycle.</li> 
+																	<li id='resume_item'>Developed the front and back ends of beautiful and and intuitive web applications using the latest html, CSS, and JavaScript techniques.</li>
+																	<li id='resume_item'>Consulted with clients and transformed, managed, and enhanced their ideas into lean and cutting edge agile development projects.</li>
+																	<li id='resume_item'>Turbocharged workflow with Sass, Compass, Grunt.js, and Middleman.</li>
 																</ul>
 																</div>
-																<!--End CRM-->
-
+																<div>
+																<h4>AGCONTI Consulting &ndash; Full Stack Developer, Consultant</h4>
+																<h6>2011 &ndash; Present</h6>
+															</div>
+																<ul class='resume_list'>
+																	<li id='resume_item'>Clients from the Finance, Health Care, and Technology Industries.</li>
+																	<li id='resume_item'>rojects focus on data analytics, creating pricing models, and visualizing analysis results into easy to understand and intuitive user experiences.</li>
+																	<li id='resume_item'>Heavily used html, CSS, JavaScript, jQuery, Python, Django, and Git.</li>
+																</ul>
+																</div>
 
 																<!--Box-->
-																<div class="box">			
+																<div class="box">
 																<div>
 																	<h4>
-																		Polaris Investment Partners &ndash; Financial Analyst  &amp; Developer
+																		Polaris Investment Partners &ndash; Quantitative Developer. Financial Analyst
 																	</h4>
 																	<h6>January 2012 &ndash; March 2013</h6>
 																</div>
@@ -211,7 +219,7 @@
 
 												</article>
 												<!--End soft dev experience-->
-												
+
 												<!--research Experience-->
 												<article id="experience"> <!--class="columns_Two noMarchginRight"-->
 															<h1 class="mainTitle clearfix">
@@ -222,7 +230,7 @@
 															<div>
 																<h4>
 																	The Initiative for Public Choice and Marchket Process &ndash; Researcher
-																</h4>  
+																</h4>
 																<h6>September 2011 &ndash; Present</h6>
 															</div>
 																<ul>
@@ -234,10 +242,10 @@
 
 
 																<!--Box-->
-																<div class="box">			
+																<div class="box">
 																<div>
 																	<h4>
-																		Algorithmic Trading System Development &ndash; Entrepreneur 
+																		Algorithmic Trading System Development &ndash; Entrepreneur
 																	</h4>
 																	<h6>October 2011 &ndash; December 2013</h6>
 																</div>
@@ -250,16 +258,16 @@
 														<!--End box-->
 
 																											<!--Box-->
-																<div class="box">			
+																<div class="box">
 																<div>
 																	<h4>
-																		Fast Iron &ndash; Blue Book Quantitative Model 
+																		Fast Iron &ndash; Blue Book Quantitative Model
 																	</h4>
 																	<h6>January 2011 &ndash; April 2013</h6>
 																</div>
 												<ul>
 													<li id='resume_item'>
-														Created a predictive model for Fast Iron that allows its customers to valuate their entire heavy equipment fleet at auction. 
+														Created a predictive model for Fast Iron that allows its customers to valuate their entire heavy equipment fleet at auction.
 													</li>
 													<li id='resume_item'>
 														Used Python and the Pandas, NumPy, StatsModels, and Matplotlib libraries as a medium to apply machine learning techniques to achieve an R2 of 0.877.
@@ -278,9 +286,9 @@
 									<div class="columns_Three">
 										<!--Circle-->
 										<div class="circle">
-											
+
 										<span class="icon"><img src="images/ico3.png" alt=""></span>
-											
+
 										</div>
 										<!--Inner circle-->
 										<h2><span>Consulting</span></h2>
@@ -292,9 +300,9 @@
 									<div class="columns_Three">
 										<!--Circle-->
 										<div class="circle">
-											
+
 												<span class="icon"><img src="images/ico1.png" alt=""></span>
-												
+
 										</div>
 										<!--Inner circle-->
 										<h2><span>Development</span></h2>
@@ -316,26 +324,26 @@
 								</div>
 								<!--End services inner-->
 						</article>
-						
-						
+
+
 							<!--Quote-->
 							<article id="quote">
 								<h2><span font_style='strong'>I’m looking for opportunities that will allow me to create innovative solutions for clients with difficult and unique problems. If you have such an opportunity or would just like to chat; I’d like to hear from you.<span></h2>
 								<a href="#contact">Get in touch with me</a>
 							</article>
 							<!--End quote-->
-					
+
 				</div>
 				<!--End resume-->
-				
-				
-				
-			
+
+
+
+
 				</div>
 				<!--End inner about-->
 				</section>
-		<!--End about me-->	
-		
+		<!--End about me-->
+
 		<!--Skills-->
 		<section id="skills" class="clearfix">
 				<!--Title-->
@@ -347,97 +355,114 @@
 					<div class="titleArrow"></div>
 				</div>
 				<!--End title-->
-				
+
 				<!--Inner skills-->
 				<div id="innerSkills" class="clearfix">
 					<article id="skill">
 								<h1 class="mainTitle clearfix">Skills</h1>
 								<!--Skills holder-->
 								<div id="skillsHolder">
-								<!--Skill 
+								<!--Skill
 
-Python[NumPy, SciPy, Pandas, Matplotlib, StatsModels], C++, VBA, HTML5, CSS, JavaScript, Django, Hadoop, Pig, SQLite3, Git 
+Python[NumPy, SciPy, Pandas, Matplotlib, StatsModels], C++, VBA, HTML5, CSS, JavaScript, Django, Hadoop, Pig, SQLite3, Git
 IDEs: IPython, IPython NoteBook, Sublime Text 2, Visual Studio Express, Eclipse
 Language: Professional working proficiency in Mandarin Chinese.
 
 														-->
-								<div class="skillBar">            
+								<div class="skillBar">
 								     <div class="skillbarHolder">
-								      <div class="skillbarTitle">Python</div>
-								      <div class="percentage percent90"></div>    
-								      </div>              
+								      <div class="skillbarTitle">HTML</div>
+								      <div class="percentage percent90"></div>
+								      </div>
 								</div>
 								<!--End skill-->
 
 
-								<div class="skillBar">            
-								     <div class="skillbarHolder">
-								      <div class="skillbarTitle">C++</div>
-								      <div class="percentage percent70"></div>    
-								      </div>              
-								</div>
-
-								<div class="skillBar">            
-								     <div class="skillbarHolder">
-								      <div class="skillbarTitle">VBA</div>
-								      <div class="percentage percent75"></div>    
-								      </div>              
-								</div>
-
-								<!--Skill-->
-								<div class="skillBar">            
-								     <div class="skillbarHolder">
-								      <div class="skillbarTitle">Statistical Analysis</div>
-								      <div class="percentage percent90"></div>    
-								      </div>              
-								</div>
-								<!--End skill-->
-
-								<div class="skillBar">            
-								     <div class="skillbarHolder">
-								      <div class="skillbarTitle">HTML5</div>
-								      <div class="percentage percent75"></div>    
-								      </div>              
-								</div>
-
-
-								<div class="skillBar">            
+								<div class="skillBar">
 								     <div class="skillbarHolder">
 								      <div class="skillbarTitle">CSS</div>
-								      <div class="percentage percent75"></div>    
-								      </div>              
+								      <div class="percentage percent90"></div>
+								      </div>
 								</div>
 
-								<div class="skillBar">            
+								<div class="skillBar">
 								     <div class="skillbarHolder">
-								      <div class="skillbarTitle">JavaScipt</div>
-								      <div class="percentage percent70"></div>    
-								      </div>              
+								      <div class="skillbarTitle">Sass / Compass</div>
+								      <div class="percentage percent85"></div>
+								      </div>
 								</div>
 
+
+								<div class="skillBar">
+								     <div class="skillbarHolder">
+								      <div class="skillbarTitle">JavaScript</div>
+								      <div class="percentage percent85"></div>
+								      </div>
+								</div>
 
 								<!--Skill-->
-								<div class="skillBar">            
+								<div class="skillBar">
 								     <div class="skillbarHolder">
-								      <div class="skillbarTitle">Consulting</div>
-								      <div class="percentage percent65"></div>    
-								      </div>              
+								      <div class="skillbarTitle">jQuery</div>
+								      <div class="percentage percent85"></div>
+								      </div>
+								</div>
+								<!--End skill-->
+									<div class="skillBar">
+								     <div class="skillbarHolder">
+								      <div class="skillbarTitle">Grunt.js</div>
+								      <div class="percentage percent75"></div>
+								      </div>
+								</div>
+									<div class="skillBar">
+								     <div class="skillbarHolder">
+								      <div class="skillbarTitle">D3.js</div>
+								      <div class="percentage percent75"></div>
+								      </div>
+								</div>
+
+								<div class="skillBar">
+								     <div class="skillbarHolder">
+								      <div class="skillbarTitle">Python</div>
+								      <div class="percentage percent90"></div>
+								      </div>
+								</div>
+
+								<div class="skillBar">
+								     <div class="skillbarHolder">
+								      <div class="skillbarTitle">Django</div>
+								      <div class="percentage percent80"></div>
+								      </div>
+								</div>
+								<div class="skillBar">
+								     <div class="skillbarHolder">
+								      <div class="skillbarTitle">Flask</div>
+								      <div class="percentage percent76"></div>
+								      </div>
+								</div>
+
+								<!--Skill-->
+								<div class="skillBar">
+								     <div class="skillbarHolder">
+								      <div class="skillbarTitle">Git</div>
+								      <div class="percentage percent80"></div>
+								      </div>
 								</div>
 								<!--End skill-->
 
 								<!--Skill-->
-								<div class="skillBar">            
+								<div class="skillBar">
 								     <div class="skillbarHolder">
 								      <div class="skillbarTitle">Mandarin Chinese</div>
-								      <div class="percentage percent90"></div>    
-								      </div>              
+								      <div class="percentage percent90"></div>
+								      </div>
 								</div>
 								<!--End skill-->
 								</div>
 								<!--End skills holder-->
 							</article>
-							
-							
+
+
 								<!--Testimonials-->
 								<article id="testimonials">
 										<h1 class="mainTitle clearfix">Testimonials</h1>
@@ -449,33 +474,33 @@ Language: Professional working proficiency in Mandarin Chinese.
 													<h3>Dr. Marchk Pyles / <span>Associate Professor of Finance</span></h3>
 													</div>
 													<!--End testi-->
-													
+
 													<!--Testi-->
 													<!-- comment stock testi
 													<div class="testi">
 												<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </blockquote>
 														<h3>Albert Anderson / <span>Web developer</span></h3>
 														</div>
-																									
-											
+
+
 											<div class="testi">
 										<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </blockquote>
 												<h3>John Doe / <span>Interactive designer</span></h3>
 												</div>
-												
+
 													endcomment stock testi-->
 														<!--End testi-->
 									</div>
 								</article>
 								<!--End testimonials -->
-							
-							
+
+
 					</div>
 					<!--Inner skills-->
-			</section>	
+			</section>
 		<!--End skills-->
-		
-		
+
+
 		<!--Portfolio-->
 		<section id="portfolio">
 				<!--Title-->
@@ -484,10 +509,10 @@ Language: Professional working proficiency in Mandarin Chinese.
 					<h1>my projects</h1><!-- My works -->
 					<h4>Check out what I've been up to</h4>
 					</div>
-					<div class="titleArrow"></div>	
+					<div class="titleArrow"></div>
 				</div>
 				<!--End title-->
-				
+
 					<!--Filter nav holder-->
 					<div id="filternavHolder">
 					<!-- Filter nav -->
@@ -500,11 +525,11 @@ Language: Professional working proficiency in Mandarin Chinese.
 					<!-- End filter nav -->
 				</div>
 				<!--End filter nav holder-->
-				
-				
+
+
 				<!--Inner portfolio-->
 				<div id="innerPortfolio" class="clearfix">
-					
+
 					<!-- Works list -->
 					<section id="works" class="clearfix">
 						<!--Portfolio-->
@@ -514,7 +539,7 @@ Language: Professional working proficiency in Mandarin Chinese.
 					<img src="images/portfolioImages/bluebook.jpg" alt="" />
 					<a href="http://bit.ly/1bH6yer">+</a></a>
 					<div class="hgroup">
-						<h3>Kaggle Competition</h3> 
+						<h3>Kaggle Competition</h3>
 						<h3><span style='font-weight: bold;'>Blue Book for Bulldozers</span></h3>
 						<h4>In Predictive Modeling</h4>
 					</div>
@@ -564,7 +589,7 @@ Language: Professional working proficiency in Mandarin Chinese.
 					<a  href="images/portfolioImages/img2.jpg">+</a>
 					<div class="hgroup">
 						<h3>Chinese IPOs Underpricing,</h3>
-						<h3>Underperformance, and Fraud.</h3> 
+						<h3>Underperformance, and Fraud.</h3>
 						<h4>In Research</h4>
 					</div>
 					</li>
@@ -588,7 +613,7 @@ Language: Professional working proficiency in Mandarin Chinese.
 					<h3></h3>
 				</div>
 					</li>
-					
+
 						<li data-id="id-9" data-type="catGraphic" class="item">
 						<img src="images/portfolioImages/dev.png" alt="" />
 						<a  href="http://bit.ly/13AyWvf">+</a>
@@ -612,14 +637,14 @@ Language: Professional working proficiency in Mandarin Chinese.
 					<!--End portfolio-->
 					</section>
 						<!-- End works list -->
-					
+
 					</div>
 						<!--End inner portfolio-->
-			</section>	
+			</section>
 		<!--End portfolio-->
-		
-		
-		
+
+
+
 		<!--Contact-->
 		<section id="contact" class="clearfix">
 				<!--Title-->
@@ -631,7 +656,7 @@ Language: Professional working proficiency in Mandarin Chinese.
 					<div class="titleArrow"></div>
 				</div>
 				<!--End title-->
-				
+
 				<!--Inner contact-->
 				<div id="innerContact" class="clearfix">
 							<!--Map section-->
@@ -639,8 +664,8 @@ Language: Professional working proficiency in Mandarin Chinese.
 							<div id="map"></div>
 						</div>
 							<!--End map section-->
-							
-							
+
+
 								<!-- Contact form -->
 								<div id="contactForm">
 									<h1 class="mainTitle">Please, feel free to send me an email</h1>
@@ -664,12 +689,12 @@ Language: Professional working proficiency in Mandarin Chinese.
 									<div id="success"><h2>Your message has been sent. Thank you!</h2></div>
 								</div>
 								<!-- End contact form -->
-								
-								
+
+
 									<!--Contact information-->
 									<div id="info">
 										<h1 class="mainTitle">My Contact Information</h1>
-										
+
 										<!--Personal info-->
 									<div class="pInfo">
 									<div class="pinfoInner">
@@ -682,7 +707,7 @@ Language: Professional working proficiency in Mandarin Chinese.
 									</div>
 									</div>
 									<!--End personal info-->
-									
+
 									<!--Compagny info-->
 									<div class="cInfo">
 										<h1 class="mainTitle">Company Info</h1>
@@ -693,31 +718,31 @@ Language: Professional working proficiency in Mandarin Chinese.
 											<p>
 												<b>Email</b> : andrew@agconti.com<br>
 												<b>Web</b> : http://www.agconti.com<br>
-											
-												 
+
+
 											</p>
 										</div>
-										
+
 											<!--End compagny info-->
 									</div>
 										<!--End contact information-->
-								
+
 
 					</div>
 				<!--Inner contact-->
 			</section>
-		<!--End contact-->	
-	
-		
-		<!--Footer-->				
+		<!--End contact-->
+
+
+		<!--Footer-->
 	<section id="footer">
 		<!--Twitter feed-->
-			
+
 		<div id="twitter">
 			<div class="arrowFeed"></div>
 				<!--Inner twitter-->
 			<!--<div id="innerTwitter"><div class="icon-twitter-bird-footer">
-				
+
 			add twitter id? max width and height too small!!	-->
 			<a class="twitter-timeline"  width='825' height='350' href="https://twitter.com/agconti" data-theme="dark" data-widget-id="352292138458955776">My Tweets; @agconti</a>
 			<script>
@@ -733,17 +758,17 @@ Language: Professional working proficiency in Mandarin Chinese.
 				}
 					(document,"script","twitter-wjs");
 			</script>
-			
 
-				
+
+
 			<!--</div></div>-->
 				<!--End inner twitter-->
 		</div>
-			
+
 		<!--End twitter feed-->
 		<div class="innerFooter">
 			<p>Andrew Conti &copy; 2013. All Rights Reserved.</p>
-			
+
 				<!--Socials footer-->
 				<ul id="socialsFooter">
 					<ul>
@@ -757,7 +782,7 @@ Language: Professional working proficiency in Mandarin Chinese.
 				     -->
 					<li><a href="http://www.linkedin.com/in/agconti"><img src='images/icons/linkedin.png' alt=''/></a>
 						<!--<i class="icon-linkedin"></i>--></li>
-					<li><a href="http://careers.stackoverflow.com/agconti"><img src='images/icons/so-careers-icon-w.png' alt=''/></a></li>	
+					<li><a href="http://careers.stackoverflow.com/agconti"><img src='images/icons/so-careers-icon-w.png' alt=''/></a></li>
 					<li><a href="http://stackoverflow.com/users/2259303/agconti"><img src='images/icons/stack.png' alt=''/></a>
 						<!--<i class="icon-linkedin"></i>--></li>
 					<li><a href="https://twitter.com/agconti"><img src='images/icons/twitter.png' alt=''/></a>
@@ -770,13 +795,13 @@ Language: Professional working proficiency in Mandarin Chinese.
 		</section>
 	<!--End footer -->
 		</div>
-		
-		
+
+
 		<!--End inner Content-->
 	</div>
 	<!--End main content-->
-	
-		
+
+
 
 </div>
 <!--End wrapper-->
@@ -801,7 +826,7 @@ Language: Professional working proficiency in Mandarin Chinese.
 //<![CDATA[
 //---------------------------------- Twitter feed -----------------------------------------//
 $(document).ready(function(){
-	
+
 	jQuery(".icon-twitter-bird-footer").tweet({
 	  join_text: false,
 	  username: "agconti", // Change username here
@@ -814,12 +839,12 @@ $(document).ready(function(){
 	  auto_join_text_reply: ' we replied to ',
 	  auto_join_text_url: ' we were checking out ',
 	  loading_text: 'Loading tweets...'
-	
+
 	});
-		
-		
-		
-		
+
+
+
+
 });
 //]]>
 //---------------------------------- End witter feed -----------------------------------------//
@@ -836,7 +861,7 @@ $(document).ready(function(){
   ga('send', 'pageview');
 
 </script>
-	
+
 <!-- End google analytics -->
 
  </body>
