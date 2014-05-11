@@ -13,15 +13,8 @@ var animateWelcome = function (selector) {
             opacity: 1
         };
         animationConfig.duration = Math.random() * (maxDuration - minDuration) + minDuration;
-        if (i < ($selected.length / 2)) {
-            animation.left = 0;
-            var animationDirection = 'left';
-        } else {
-            animation.right = 0;
-            animationDirection = 'right';
-        }
         $($selected[i])
-            .css(animationDirection, animationOffset)
+            .css(i < ($selected.length / 2) ? 'left': 'right' , animationOffset)
             .velocity(animation, animationConfig);
     }
 };
