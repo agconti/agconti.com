@@ -2,6 +2,7 @@
 var animateWelcome = function (selector) {
     var maxDuration = 1500;
     var minDuration = 1000;
+    var animationDirection;
     var animationOffset = "200%";
     var animationConfig = {
         easing: 'easeOutElastic',
@@ -12,15 +13,24 @@ var animateWelcome = function (selector) {
         var animation = {
             opacity: 1
         };
+        if (i < ($selected.length / 2)){
+            animation.left = 0;
+            animationDirection = 'left';
+        } else {
+            animation.right = 0;
+            animationDirection = 'right';
+        }
         animationConfig.duration = Math.random() * (maxDuration - minDuration) + minDuration;
-        $($selected[i])
-            .css(i < ($selected.length / 2) ? 'left': 'right' , animationOffset)
+         $($selected[i])
+            .css(animationDirection, animationOffset)
             .velocity(animation, animationConfig);
     }
 };
 $(function () {
 
     // opening animation
+    
+    $($('.masthead')[0]).velocity("transition.flipBounceYIn", { stagger: 100 });
     animateWelcome('.js--welcome');
 
     // Developer Welcome
