@@ -9,11 +9,12 @@ var animateWelcome = function (selector) {
         delay: 500,
     };
     var $selected = $(selector);
-    for (var i = 0; i < $selected.length; i++) {
+    var $selectedLength = $selected.length;
+    for (var i = 0; i < $selectedLength; i++) {
         var animation = {
             opacity: 1
         };
-        if (i < ($selected.length / 2)){
+        if (i < ($selectedLength / 2)){
             animation.left = 0;
             animationDirection = 'left';
         } else {
