@@ -29,8 +29,6 @@ var animateWelcome = function (selector) {
 $(function () {
 
     // opening animation
-    
-    $($('.masthead')[0]).velocity("transition.flipBounceYIn", { stagger: 100 });
     animateWelcome('.js--welcome');
 
     // Developer Welcome
