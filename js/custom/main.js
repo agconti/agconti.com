@@ -1,37 +1,30 @@
 // agconti.com js
-var animateWelcome = function (selector) {
-    var maxDuration = 1500;
-    var minDuration = 1000;
-    var animationDirection;
-    var animationOffset = "200%";
-    var animationConfig = {
-        easing: 'easeOutElastic',
-        delay: 500,
-    };
-    var $selected = $(selector);
-    var $selectedLength = $selected.length;
-    for (var i = 0; i < $selectedLength; i++) {
-        var animation = {
-            opacity: 1
-        };
-        if (i < ($selectedLength / 2)){
-            animation.left = 0;
-            animationDirection = 'left';
-        } else {
-            animation.right = 0;
-            animationDirection = 'right';
+var  greeting = (function(){
+    'use strict';
+    var $logo = $('.logo'),
+        $navItems = $('.js--welcome'),
+        developerWelcomeMessage = "\nHi! You're a developer too?\nThanks for \
+            viewing my site. Please feel free to drop me a line on twitter, ( @agconti ).\n";
+
+    return {
+        homepageWelcome: function() {
+            $logo.velocity('fadeIn', {
+                display: "block",
+                duration: 1000
+            });
+            $navItems.velocity('transition.slideLeftIn', {
+                delay: 350,
+                stagger: 100,
+                drag: true
+            });
+        },
+        developerWelcome: function(){
+            console.log(developerWelcomeMessage);
         }
-        animationConfig.duration = Math.random() * (maxDuration - minDuration) + minDuration;
-         $($selected[i])
-            .css(animationDirection, animationOffset)
-            .velocity(animation, animationConfig);
-    }
-};
+    };
+}());
+
 $(function () {
-
-    // opening animation
-    animateWelcome('.js--welcome');
-
-    // Developer Welcome
-    console.log("\nHi! You're a developer too?\nThanks for viewing my site. Please feel free to drop me a line on twitter, ( @agconti ).\n");
+    greeting.homepageWelcome();
+    greeting.developerWelcome();
 });
