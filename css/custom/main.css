@@ -42,6 +42,7 @@ body{
     margin: 0 auto;
 }
 .masthead__navigation{
+    margin-top: 2em;
     text-align: center;
 }
 .masthead__navigation div{
@@ -73,12 +74,4 @@ body{
 }
 .js--welcome{
     opacity: 0;
-}
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (max-width: 40em){
-    .logo{
-        width: 100%;
-    }
 }
