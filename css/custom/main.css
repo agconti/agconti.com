@@ -30,27 +30,21 @@ body{
    Custom Styles
    ========================================================================== */
 .masthead {
-    display: block;
-    position: relative;
-    text-align: center;
-    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 .masthead__inner {
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
 }
 .logo{
     display: block;
-    width: 35%;
+    max-width: 100%;
     margin: 0 auto;
 }
 .masthead__navigation{
-    position: relative;
-
+    text-align: center;
 }
 .masthead__navigation div{
     display: inline-block;
@@ -85,19 +79,7 @@ body{
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (max-width: 1100px){
-    .logo{
-        width: 45%;
-    }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 900px){
-    .logo{
-        width: 65%;
-    }
-}
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 40em){
     .logo{
         width: 100%;
     }
