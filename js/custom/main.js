@@ -14,6 +14,7 @@ var  greeting = (function(){
             });
             $navItems.velocity('transition.slideLeftIn', {
                 delay: 350,
+                duration: 500,
                 stagger: 100,
                 drag: true
             });
