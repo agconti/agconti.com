@@ -14,8 +14,8 @@ var  greeting = (function(){
     'use strict';
     var $logo = $('.logo'),
         $navItems = $('.js--welcome'),
-        developerWelcomeMessage = "\nHi! You're a developer too?\nThanks for \
-            viewing my site. Please feel free to drop me a line on twitter, ( @agconti ).\n";
+        developerWelcomeMessage = 
+            "\nHi! You're a developer too?\nThanks for viewing my site. Please feel free to drop me a line on twitter, ( @agconti ).\n";
 
     return {
         homepageWelcome: function() {
@@ -26,7 +26,7 @@ var  greeting = (function(){
             $navItems.velocity('transition.slideLeftIn', {
                 delay: 350,
                 duration: 500,
-                stagger: 100,
+                stagger: 100,       
                 drag: true
             });
         },
