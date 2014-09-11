@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Masthead Styles
+   ========================================================================== */
+.masthead {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.masthead__navigation{
+    margin-top: 2em;
+    text-align: center;
+    div {
+        display: inline-block;
+    }
+    a {
+        display: inline-block;
+        color: $red;
+        padding: 0 0.25em;
+        font-size: 2.5em;
+        text-decoration: none;
+        transition: 0.25s all ease;
+        &:hover {
+            color: $red--bright;
+            transform: translateY(-5px);
+        }
+        &:focus,
+        &:active{
+            color: $blue;
+        }
+    }
+    i {
+        position: relative;
+        opacity: 0;
+    }
+}
+.js--welcome{
+    opacity: 0;
+}
