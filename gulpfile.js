@@ -16,6 +16,7 @@ gulp.task('browser-sync', function() {
 // will auto-update browsers
 gulp.task('sass', function () {
     return gulp.src('scss/**/*.scss')
+    	.pipe(autoprefixer('last 2 versions'))
         .pipe(sass())
         .pipe(gulp.dest('css'))
         .pipe(reload({stream:true}));
