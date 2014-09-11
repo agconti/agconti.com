@@ -1,32 +1,4 @@
 /* ==========================================================================
-   Base Styles
-   ========================================================================== */
-html {
-    height: 100%;
-}
-body{
-    background: hsl(8, 71%, 22%);
-    color: white;
-}
-
-/* ==========================================================================
-   Helpers Styles
-   ========================================================================== */
-.group {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 93.75%;
-}
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-/* ==========================================================================
    Custom Styles
    ========================================================================== */
 .masthead {
@@ -51,7 +23,7 @@ body{
 }
 .masthead__navigation a{
     display: inline-block;
-    color: hsl(8, 100%, 35%);
+    color: $red;
     padding: 0 0.25em;
     font-size: 2.5em;
     text-decoration: none;
@@ -60,14 +32,14 @@ body{
             transition: 0.25s all ease;
 }
 .masthead__navigation a:hover {
-    color: hsl(8, 100%, 50%);
+    color: $red--bright;
     -webkit-transform: translateY(-5px);
        -moz-transform: translateY(-5px);
             transform: translateY(-5px);
 }
 .masthead__navigation a:focus,
 .masthead__navigation a:active{
-    color: hsl(188, 100%, 75%);
+    color: $blue;
 }
 .masthead__navigation i {
     position: relative;
