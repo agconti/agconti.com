@@ -22,13 +22,12 @@ gulp.task('browser-sync', function() {
 // javascript task
 gulp.task('js', function () {
     return gulp.src([
-            './js/vendor/**/*.js',
-            './js/custom/**/*.js',
+            'js/vendor/**/*.js',
+            'js/custom/**/*.js',
         ])
         .pipe(changed(jsDest))
         .pipe(concat("main.js"))
         .pipe(gulp.dest(jsDest))
-        .pipe(reload({stream:true}));
 });
 
 // Sass task, will run when any SCSS files change & BrowserSync
@@ -43,13 +42,11 @@ gulp.task('sass', function () {
         .on('error', console.error.bind(console))
         .pipe(autoprefixer('last 2 versions'))
         .pipe(gulp.dest(scssDest))
-        .pipe(reload({stream:true}));
 });
 
 // Default task to be run with `gulp`
 gulp.task('default', ['js', 'sass', 'browser-sync'], function () {
-    gulp.watch(['./**/*.html'], reload);
-    gulp.watch("scss/*.scss", ['sass']);
-    gulp.watch("js/custom/**/*.js", ['js']);
-    gulp.watch("js/vendor/**/*.js", ['js']);
+    gulp.watch(['./**/*.html'], [reload]);
+    gulp.watch(['scss/*.scss'], ['sass', reload]);
+    gulp.watch(['js/custom/**/*.js', 'js/vendor/**/*.js'], ['js', reload]);
 });
