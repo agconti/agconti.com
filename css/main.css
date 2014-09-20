@@ -1,3 +1,4 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -254,7 +255,8 @@ button[disabled], html input[disabled] {
  * 2. Remove excess padding in IE 8/9/10.
  */
 input[type="checkbox"], input[type="radio"] {
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -268,7 +270,6 @@ input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -307,7 +308,10 @@ table {
   border-spacing: 0; }
 
 /* ==========================================================================
-   Base Styles
+   Base Colors
+   ========================================================================== */
+/* ==========================================================================
+   Root Styles
    ========================================================================== */
 html {
   height: 100%; }
@@ -315,6 +319,15 @@ html {
 body {
   background: #601b10;
   color: white; }
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+.logo {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  opacity: 0; }
 
 /* ==========================================================================
    Helpers Styles
@@ -332,50 +345,43 @@ body {
   clear: both; }
 
 /* ==========================================================================
-   Custom Styles
+   Masthead Styles
    ========================================================================== */
 .masthead {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
-
-.logo {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-  opacity: 0; }
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 .masthead__navigation {
   margin-top: 2em;
   text-align: center; }
-
-.masthead__navigation div {
-  display: inline-block; }
-
-.masthead__navigation a {
-  display: inline-block;
-  color: #b31800;
-  padding: 0 0.25em;
-  font-size: 2.5em;
-  text-decoration: none;
-  -webkit-transition: 0.25s all ease;
-  -moz-transition: 0.25s all ease;
-  transition: 0.25s all ease; }
-
-.masthead__navigation a:hover {
-  color: #ff2200;
-  -webkit-transform: translateY(-5px);
-  -moz-transform: translateY(-5px);
-  transform: translateY(-5px); }
-
-.masthead__navigation a:focus, .masthead__navigation a:active {
-  color: #80eeff; }
-
-.masthead__navigation i {
-  position: relative;
-  opacity: 0; }
+  .masthead__navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .masthead__navigation li {
+    display: inline-block; }
+  .masthead__navigation a {
+    display: inline-block;
+    color: #b31800;
+    padding: 0 0.25em;
+    font-size: 2.5em;
+    text-decoration: none;
+    -webkit-transition: 0.25s all ease;
+            transition: 0.25s all ease; }
+    .masthead__navigation a:hover {
+      color: #ff2200;
+      -webkit-transform: translateY(-5px);
+          -ms-transform: translateY(-5px);
+              transform: translateY(-5px); }
+    .masthead__navigation a:focus, .masthead__navigation a:active {
+      color: #80eeff; }
+  .masthead__navigation i {
+    position: relative;
+    opacity: 0; }
 
 .js--welcome {
   opacity: 0; }
