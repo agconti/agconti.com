@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Contact Form Styles
+   ========================================================================== */
+
+.contact-form {
+    position: relative;
+    text-align: center;
+    margin: 2em;
+    a {
+        padding: 1em 1.5em;
+        background-color: $red;
+        color: $red--dark;
+        text-decoration: none;
+        vertical-align: middle;
+        transition: all 0.15s ease;
+        &:hover {
+            background-color: lighten($red, 10);
+        }
+        &:focus,
+        &:active{
+            box-shadow: inset 0 4px 1px $red;
+        }
+    }
+
+}

@@ -347,7 +347,7 @@ body {
 /* ==========================================================================
    Masthead Styles
    ========================================================================== */
-.masthead {
+.masthead_inner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -385,3 +385,23 @@ body {
 
 .js--welcome {
   opacity: 0; }
+
+/* ==========================================================================
+   Contact Form Styles
+   ========================================================================== */
+.contact-form {
+  position: relative;
+  text-align: center;
+  margin: 2em; }
+  .contact-form a {
+    padding: 1em 1.5em;
+    background-color: #b31800;
+    color: #601b10;
+    text-decoration: none;
+    vertical-align: middle;
+    -webkit-transition: all 0.15s ease;
+            transition: all 0.15s ease; }
+    .contact-form a:hover {
+      background-color: #e61b00; }
+    .contact-form a:focus, .contact-form a:active {
+      box-shadow: inset 0 4px 1px #b31800; }
