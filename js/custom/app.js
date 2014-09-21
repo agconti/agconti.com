@@ -1,15 +1,6 @@
-//app.js
+// app.js
+'use strict';
 
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ['ngAnimate', 'ui.router', 'siteControllers']);
 
-app.controller('GreetingController', function(){
 
-});
-
-app.controller('ContactFormController', function(){
-    this.email;
-    this.firstName;
-    this.lastName;
-    this.message;
-    this.alertMessage = function(){alert("Yo IMA FE");};
-});
