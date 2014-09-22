@@ -6,6 +6,7 @@
     position: relative;
     text-align: center;
     margin: 2em;
+    color: $red;
     a {
         padding: 1em 1.5em;
         background-color: $red;
@@ -14,12 +15,32 @@
         vertical-align: middle;
         transition: all 0.15s ease;
         &:hover {
-            background-color: lighten($red, 10);
+            background-color: $red--active;
         }
         &:focus,
-        &:active{
+        &:active {
             box-shadow: inset 0 4px 1px $red;
         }
+    }
+    input {
+        font-size: 1.5em;
+        padding: 0.75em 1em;
+        border: 2px solid $red;
+        background: transparent;
+        outline: none;
+        transition: all 0.1s ease;
+        box-shadow: inset 0 0;
+        color: $red--active;
+        box-sizing: border-box;
+
+        &:focus,
+        &:active {
+            border-color: $red--active;
+            box-shadow: inset 0.5em 0px $red--active;
+        }
+    }
+    label{
+        font-size: 1.5em;
     }
 
 }
