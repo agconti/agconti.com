@@ -1,6 +1,12 @@
 // app.js
 'use strict';
 
-var app = angular.module('myApp', ['ngAnimate', 'ui.router', 'appControllers', 'appServices']);
+var app = angular.module('myApp', [
+    'appRouter', 
+    'appControllers', 
+    'appServices', 
+    'appAnimations'
+]);
+
 
 

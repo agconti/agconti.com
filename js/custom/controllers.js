@@ -3,15 +3,20 @@
 
 var appControllers = angular.module("appControllers", ['appServices']);
 
-appControllers.controller('GreetingController', function(){
-});
+appControllers.controller('GreetingController', ['$scope', function($scope){
+
+  $scope.$on('$stateChangeSuccess', function(){
+      greeting.greet();
+  });
+
+}]);
 
 
 appControllers.controller('ContactFormController', ['Mandrill', function(Mandrill){
     this.email;
     this.senderName;
     this.message;
-    this.alertMessage = function(){
+    this.send = function(){
         Mandrill.send(this.email, this.message);
         console.log({
             email: this.email,
@@ -19,5 +24,5 @@ appControllers.controller('ContactFormController', ['Mandrill', function(Mandril
             message: this.message
         });
     };
-}]);
+;}]);
 
