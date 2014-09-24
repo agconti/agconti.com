@@ -347,7 +347,17 @@ body {
 /* ==========================================================================
    Masthead Styles
    ========================================================================== */
-.masthead_inner {
+.masthead ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+.masthead li {
+  display: inline-block; }
+.masthead i {
+  position: relative;
+  opacity: 0; }
+
+.masthead__inner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -358,12 +368,6 @@ body {
 .masthead__navigation {
   margin-top: 2em;
   text-align: center; }
-  .masthead__navigation ul {
-    list-style: none;
-    padding: 0;
-    margin: 0; }
-  .masthead__navigation li {
-    display: inline-block; }
   .masthead__navigation a {
     display: inline-block;
     color: #b31800;
@@ -379,9 +383,19 @@ body {
               transform: translateY(-5px); }
     .masthead__navigation a:focus, .masthead__navigation a:active {
       color: #80eeff; }
-  .masthead__navigation i {
-    position: relative;
-    opacity: 0; }
+
+.contact-button {
+  padding: 1em 1.5em;
+  background-color: #b31800;
+  color: #601b10;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-transition: all 0.15s ease;
+          transition: all 0.15s ease; }
+  .contact-button:hover {
+    background-color: #cc1800; }
+  .contact-button:focus, .contact-button:active {
+    box-shadow: inset 0 4px 1px #b31800; }
 
 .js--welcome {
   opacity: 0; }
@@ -394,18 +408,6 @@ body {
   text-align: center;
   margin: 2em;
   color: #b31800; }
-  .contact-form a {
-    padding: 1em 1.5em;
-    background-color: #b31800;
-    color: #601b10;
-    text-decoration: none;
-    vertical-align: middle;
-    -webkit-transition: all 0.15s ease;
-            transition: all 0.15s ease; }
-    .contact-form a:hover {
-      background-color: #cc1800; }
-    .contact-form a:focus, .contact-form a:active {
-      box-shadow: inset 0 4px 1px #b31800; }
   .contact-form input {
     font-size: 1.5em;
     padding: 0.75em 1em;

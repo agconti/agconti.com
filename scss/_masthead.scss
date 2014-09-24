@@ -1,7 +1,22 @@
 /* ==========================================================================
    Masthead Styles
    ========================================================================== */
-.masthead_inner {
+.masthead {
+    ul { 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        display: inline-block;
+    }
+    i {
+        position: relative;
+        opacity: 0;
+    }
+}
+
+.masthead__inner {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -11,14 +26,6 @@
 .masthead__navigation{
     margin-top: 2em;
     text-align: center;
-    ul { 
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    li {
-        display: inline-block;
-    }
     a {
         display: inline-block;
         color: $red;
@@ -34,10 +41,24 @@
         &:active{
             color: $blue;
         }
+    }  
+}
+
+.contact-button {
+    padding: 1em 1.5em;
+    background-color: $red;
+    color: $red--dark;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: all 0.15s ease;
+
+    &:hover {
+        background-color: $red--active;
     }
-    i {
-        position: relative;
-        opacity: 0;
+
+    &:focus,
+    &:active {
+        box-shadow: inset 0 4px 1px $red;
     }
 }
 .js--welcome{
