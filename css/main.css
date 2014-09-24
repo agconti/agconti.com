@@ -344,6 +344,14 @@ body {
 .clearfix:after {
   clear: both; }
 
+.center-to-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
 /* ==========================================================================
    Masthead Styles
    ========================================================================== */
@@ -404,7 +412,6 @@ body {
    Contact Form Styles
    ========================================================================== */
 .contact-form {
-  position: relative;
   text-align: center;
   margin: 2em;
   color: #b31800; }

@@ -1,9 +1,11 @@
 <section ng-controller="ContactFormController as form" class="contact-form group">
-    <label>Hey, whats your name friend?</label>
-    <input type="text" name="senderName" ng-model="form.senderName">
-    <label>Your email, I'll need that.</label>
-    <input type="email" name="email" ng-model="form.email">
-    <label>What can I do you for?</label>
-    <input type="text" name="message" ng-model="form.message">
-    <a ng-click="form.send()"href="#">Contact Me</a>
+    <div class="center-to-content">
+        <label>Hey, whats your name friend?</label>
+        <input type="text" name="senderName" ng-model="form.senderName">
+        <label>Your email, I'll need that.</label>
+        <input type="email" name="email" ng-model="form.email">
+        <label>What can I do you for?</label>
+        <input type="text" name="message" ng-model="form.message">
+        <a ng-click="form.send()"href="#">Contact Me</a>
+    </div>
 </section>
