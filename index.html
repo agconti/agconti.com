@@ -13,34 +13,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header></header>
-        <main>
-            <section ng-controller="GreetingController" class="masthead group">
-                <div class="masthead__inner">
-                    <img class="logo" src="images/icons/agclogo.png"/>
-                    <nav class="masthead__navigation">
-                        <ul>
-                            <li>
-                                <a href="http://www.github.com/agconti"><i class="fa fa-github fa-fw js--welcome"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://stackoverflow.com/users/2259303/agconti"><i class="fa fa-stack-overflow fa-fw js--welcome"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://www.twitter.com/agconti"><i class="fa fa-twitter fa-fw js--welcome"></i></a></li>
-                            <li>
-                                <a href="http://www.linkedin.com/in/agconti"><i class="fa fa-linkedin fa-fw js--welcome"></i></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </section>
-            <section ng-controller="ContactFormController as form" class="contact-form group">
-                <input type="text" name="senderName" ng-model="form.senderName">
-                <input type="email" name="email" ng-model="form.email">
-                <input type="text" name="message" ng-model="form.message">
-                <a ng-click="form.alertMessage()"href="#">Contact Me</a>
-            </section>
-        </main>
+        <main ui-view></main>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>
