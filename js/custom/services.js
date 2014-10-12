@@ -33,6 +33,15 @@ function MandrillService(){
     };
 }
 
-angular.module("appServices", []);
+function VelocityService(){
+    //Velocity must already be loaded on the page
+    return window.$.Velocity;
+}
 
-       .factory('Mandrill', MandrillService);
+angular.module("appServices", [])
+
+       .factory('Mandrill', MandrillService)
+
+       .factory('Velocity', VelocityService)
+
+;
