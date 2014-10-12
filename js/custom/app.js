@@ -1,11 +1,11 @@
 // app.js
 'use strict';
 
-var app = angular.module('myApp', [
-    'appRouter', 
+angular.module('myApp', [
+    'ui.router',
+    'appAnimations',
     'appControllers', 
-    'appServices', 
-    'appAnimations'
+    'appServices'
 ]);
 
 

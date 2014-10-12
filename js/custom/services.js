@@ -1,8 +1,5 @@
 // app services
-
-var appServices = angular.module("appServices", []);
-
-appServices.factory('Mandrill', function(){
+function MandrillService(){
 
     // create a new instance of the Mandrill class with your API key
     var m = new mandrill.Mandrill('ESKjcZPEVCA73SCT9ZPtnw');
@@ -34,4 +31,8 @@ appServices.factory('Mandrill', function(){
     return {
         send: sendMessage
     };
-});
+}
+
+angular.module("appServices", []);
+
+       .factory('Mandrill', MandrillService);

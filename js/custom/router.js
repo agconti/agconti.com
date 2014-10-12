@@ -1,11 +1,9 @@
-var appRouter = angular.module("appRouter", ['ui.router']);
-
-appRouter.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+function Router ($stateProvider, $urlRouterProvider) {
     
   // catch all route
   $urlRouterProvider.otherwise('/');
     
-    // app routes
+  // app routes
   $stateProvider
     .state('home', {
       url: '/',
@@ -15,4 +13,8 @@ appRouter.config(['$stateProvider', '$urlRouterProvider', function($stateProvide
       url: '/contact',
       templateUrl: 'templates/contact-form.html'     
     });
-}]);
+}
+
+angular.module("myApp")
+
+       .config(['$stateProvider', '$urlRouterProvider', Router]);

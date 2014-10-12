@@ -1,18 +1,14 @@
 /* Controllers */
 'use strict';
+function GreetingController ($scope){
 
-var appControllers = angular.module("appControllers", ['appServices']);
+  // $scope.$on('$stateChangeSuccess', function(){
+  //     greeting.greet();
+  // });
 
-appControllers.controller('GreetingController', ['$scope', function($scope){
+}
 
-  $scope.$on('$stateChangeSuccess', function(){
-      greeting.greet();
-  });
-
-}]);
-
-
-appControllers.controller('ContactFormController', ['Mandrill', function(Mandrill){
+function ContactFormController (Mandrill){
     this.email;
     this.senderName;
     this.message;
@@ -24,5 +20,11 @@ appControllers.controller('ContactFormController', ['Mandrill', function(Mandril
             message: this.message
         });
     };
-;}]);
+}
+
+angular.module("appControllers", ['appServices']);
+
+       .controller('GreetingController', ['$scope', ContactFormController]);
+
+       .controller('ContactFormController', ['Mandrill', GreetingController]);
 
