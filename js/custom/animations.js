@@ -63,9 +63,10 @@ function WelcomeAnimation() {
   };
 }
 
-angular.module('appAnimations', ['ngAnimate']);
+angular.module('appAnimations', ['ngAnimate'])
     
        .animation('.logo', LogoAnimation);
 
-       .animation('.js--welcome', WelcomeAnimation);
+       .animation('.js--welcome', WelcomeAnimation)
+;
 

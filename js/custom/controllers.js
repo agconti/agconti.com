@@ -2,10 +2,6 @@
 'use strict';
 function GreetingController ($scope){
 
-  // $scope.$on('$stateChangeSuccess', function(){
-  //     greeting.greet();
-  // });
-
 }
 
 function ContactFormController (Mandrill){
@@ -22,9 +18,10 @@ function ContactFormController (Mandrill){
     };
 }
 
-angular.module("appControllers", ['appServices']);
+angular.module("appControllers", ['appServices'])
 
-       .controller('GreetingController', ['$scope', ContactFormController]);
+       .controller('GreetingController', ['$scope', ContactFormController])
 
-       .controller('ContactFormController', ['Mandrill', GreetingController]);
+       .controller('ContactFormController', ['Mandrill', GreetingController])
+;
 
