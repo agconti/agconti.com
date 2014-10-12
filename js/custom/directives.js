@@ -1,14 +1,32 @@
 // app directives
 
-function fadeIn(){
-
+function fadeIn(Velocity){
+    return {
+        restrict: 'A',
+        link: function(scope, element){
+            Velocity(element, 'fadeIn', {
+              display: "block",
+              duration: 1000
+          });
+        }
+    };
 }
 
-function slideChildrenIn(){
-
+function slideChildrenIn(Velocity){
+    return {
+        restrict: 'A',
+        link: function(scope, element){
+            Velocity(element.children(), 'transition.slideLeftIn', {
+              delay: 350,
+              duration: 500,
+              stagger: 100,       
+              drag: true
+          });
+        }
+    };
 }
 angular.module("appDirectives", [])
 
-       .directive("fadeIn", fadeIn)
-       .directive("slideChildrenIn", slideChildrenIn)
+       .directive("fadeIn", ['Velocity', fadeIn])
+       .directive("slideChildrenIn",['Velocity', slideChildrenIn])
 ;
