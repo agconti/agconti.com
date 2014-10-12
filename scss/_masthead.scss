@@ -12,7 +12,6 @@
     }
     i {
         position: relative;
-        opacity: 0;
     }
 }
 
@@ -60,7 +59,4 @@
     &:active {
         box-shadow: inset 0 4px 1px $red;
     }
-}
-.js--welcome{
-    opacity: 0;
 }
