@@ -17,6 +17,7 @@ function slideChildrenIn(Velocity){
         restrict: 'A',
         link: function(scope, element){
             Velocity(element.children(), 'transition.slideLeftIn', {
+              display: "inline",
               delay: 350,
               duration: 500,
               stagger: 100,       
@@ -28,5 +29,5 @@ function slideChildrenIn(Velocity){
 angular.module("appDirectives", [])
 
        .directive("fadeIn", ['Velocity', fadeIn])
-       .directive("slideChildrenIn",['Velocity', slideChildrenIn])
+       .directive("slideChildrenIn", ['Velocity', slideChildrenIn])
 ;
