@@ -1,8 +1,5 @@
 /* Controllers */
 'use strict';
-function GreetingController ($scope){
-
-}
 
 function ContactFormController (Mandrill){
     this.email;
@@ -19,9 +16,6 @@ function ContactFormController (Mandrill){
 }
 
 angular.module("appControllers", ['appServices'])
-
-       .controller('GreetingController', ['$scope', ContactFormController])
-
-       .controller('ContactFormController', ['Mandrill', GreetingController])
+       .controller('ContactFormController', ['Mandrill', ContactFormController])
 ;
 
