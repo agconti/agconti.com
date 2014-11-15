@@ -1,13 +1,5 @@
 <section ng-controller="ContactFormController as form" class="contact-form group">
     <div class="center-to-content group">
-        <label class="clearfix">Hey, whats your name friend?</label>
-        <input class="contact-input--animaton" type="text" name="senderName" ng-model="form.senderName">
-        <label class="clearfix">Your email, I'll need that.</label>
-        <input class="contact-input--animaton" type="email" name="email" ng-model="form.email">
-        <label class="clearfix">What can I do you for?</label>
-        <textarea class="contact-input--animaton" name="message" ng-model="form.message" placeholder="Hey Andrew -- Its {{from.senderName}} lets chat..."></textarea>
-        <a ng-click="form.send()" ui-sref="home">Send</a>
+        <form ui-view novalidate></form>
     </div>
 </section>
-
-

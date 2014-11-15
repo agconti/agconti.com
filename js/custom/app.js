@@ -25,7 +25,20 @@ angular.module('myApp', [
       url: '/contact'
     , templateUrl: 'templates/contact-form.html'     
     })
+    .state('contact.name', {
+      url: '/name'
+    , templateUrl: 'templates/contact-form.name.html'     
+    })
+    .state('contact.email', {
+      url: '/email'
+    , templateUrl: 'templates/contact-form.email.html'     
+    })
+    .state('contact.message', {
+      url: '/message'
+    , templateUrl: 'templates/contact-form.message.html'     
+    })
 }])
+
 })()
 
 
