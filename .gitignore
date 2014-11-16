@@ -1,3 +1,17 @@
 #ignore local files 
 .DS_Store
-node_modules/
+
+# node
+node_modules
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Sass
+.sass-cache
