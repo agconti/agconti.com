@@ -1,5 +1,25 @@
-<section ng-controller="ContactFormController as form" class="contact-form group">
-    <div class="center-to-content group">
-        <form ui-view novalidate></form>
-    </div>
+<section class="group  center" ng-controller="ContactFormController as form" class="group">
+    <form class="contact-form" autocomplete="off" ui-view novalidate></form>
 </section>
+<footer>
+    <nav class="navigation">
+        <ul slide-children-in delay="750">
+            <li>
+                <a ui-sref="home"><img class="fa fa-fw" src="images/icons/agcicon.svg" alt="agcicon"></a></li>
+            <li>
+                <a href="http://www.github.com/agconti"><i class="fa fa-github fa-fw"></i></a>
+            </li>
+            <li>
+                <a href="http://stackoverflow.com/users/2259303/agconti"><i class="fa fa-stack-overflow fa-fw"></i></a>
+            </li>
+            <li>
+                <a href="http://www.linkedin.com/in/agconti"><i class="fa fa-linkedin fa-fw"></i></a>
+            </li>
+            <li>
+                <a href="http://www.twitter.com/agconti"><i class="fa fa-twitter fa-fw"></i></a></li>
+             <li>
+                <a href="http://instagram.com/agconti"><i class="fa fa-instagram fa-fw"></i></a>
+            </li>
+        </ul>
+    </nav>
+</footer>
