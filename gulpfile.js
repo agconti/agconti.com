@@ -5,6 +5,7 @@ var gulp = require('gulp')
   , concat = require("gulp-concat")
   , autoprefixer = require('gulp-autoprefixer')
   , sass = require('gulp-sass')
+  , uglify = require('gulp-uglify')
 
 // browser-sync task for starting the server.
 gulp.task('browser-sync', function () {
@@ -22,6 +23,7 @@ gulp.task('js', function () {
       , 'js/custom/**/*.js'
       ])
       .pipe(changed('js/dest'))
+      .pipe(uglify())
       .pipe(concat("main.js"))
       .pipe(gulp.dest('js/dest'))
 })
