@@ -1,0 +1,32 @@
+{
+  "name": "agconti.com",
+  "version": "0.3.0",
+  "description": "My personal website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "angular-route": "^1.2.17-build.163.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^1.0.0",
+    "browser-sync": "^1.3.7",
+    "gulp": "^3.8.8",
+    "gulp-changed": "^1.0.0",
+    "gulp-concat": "^2.4.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-sass": "^0.7.3",
+    "gulp-uglify": "^1.0.2"
+    },
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agconti/agconti.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agconti/agconti.com/issues"
+  },
+  "homepage": "https://github.com/agconti/agconti.com"
+}
