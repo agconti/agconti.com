@@ -1,8 +1,9 @@
 // app.js
 ;(function(){
-'use strict';
+'use strict'
 
 angular.module('myApp', [
+    'ngAnimate'
   , 'ui.router'
   , 'appControllers' 
   , 'appServices'
@@ -23,7 +24,7 @@ angular.module('myApp', [
     })
     .state('contact', {
       url: '/contact'
-    , templateUrl: 'templates/contact-form.html'     
+    , templateUrl: 'templates/contact-form.html'    
     })
     .state('contact.name', {
       url: '/name'

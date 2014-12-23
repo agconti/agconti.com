@@ -1,6 +1,6 @@
 /* Controllers */
 ;(function(){
-'use strict';
+'use strict'
 
 function ContactFormController (Mandrill){
   this.email
@@ -18,6 +18,5 @@ function ContactFormController (Mandrill){
 
 angular.module("appControllers", ['appServices'])
   .controller('ContactFormController', ['Mandrill', ContactFormController])
-
 })()
 
