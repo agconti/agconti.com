@@ -358,22 +358,23 @@ html {
 /* line 7, /Users/administrator/dev/agconti.com/scss/base */
 body {
   background: #601b10;
-  color: white; }
+  color: white;
+  min-height: 100%; }
 
 /* ==========================================================================
    Base Styles
    ========================================================================== */
-/* line 14, /Users/administrator/dev/agconti.com/scss/base */
+/* line 15, /Users/administrator/dev/agconti.com/scss/base */
 .logo {
   display: block;
   max-width: 100%;
   margin: 0 auto;
   opacity: 0; }
 
-/* line 21, /Users/administrator/dev/agconti.com/scss/base */
+/* line 22, /Users/administrator/dev/agconti.com/scss/base */
 .navigation {
   margin-top: 2em; }
-  /* line 23, /Users/administrator/dev/agconti.com/scss/base */
+  /* line 24, /Users/administrator/dev/agconti.com/scss/base */
   .navigation ul {
     list-style: none;
     padding: 0;
@@ -558,19 +559,21 @@ body {
     font-weight: bold; }
   /* line 49, /Users/administrator/dev/agconti.com/scss/contact-form */
   .contact-form.ng-invalid input, .contact-form.ng-invalid textarea {
-    border-color: #ff341a; }
-  /* line 52, /Users/administrator/dev/agconti.com/scss/contact-form */
+    border-color: #ff341a;
+    z-index: -1; }
+  /* line 53, /Users/administrator/dev/agconti.com/scss/contact-form */
   .contact-form.ngvalid .form-button {
-    color: #b31800; }
+    color: #b31800;
+    z-index: 0; }
 
-/* line 57, /Users/administrator/dev/agconti.com/scss/contact-form */
+/* line 59, /Users/administrator/dev/agconti.com/scss/contact-form */
 .contact-button {
   position: absolute;
   left: 0;
   right: 0;
   margin: 1em; }
 
-/* line 63, /Users/administrator/dev/agconti.com/scss/contact-form */
+/* line 65, /Users/administrator/dev/agconti.com/scss/contact-form */
 .form-button {
   background: transparent;
   color: #800f00;
@@ -578,7 +581,7 @@ body {
   position: absolute;
   right: 0; }
 
-/* line 71, /Users/administrator/dev/agconti.com/scss/contact-form */
+/* line 73, /Users/administrator/dev/agconti.com/scss/contact-form */
 .send {
   position: absolute;
   bottom: -30%;
@@ -589,20 +592,22 @@ body {
        box-sizing: border-box;
   text-align: center; }
 
-/* line 81, /Users/administrator/dev/agconti.com/scss/contact-form */
+/* line 83, /Users/administrator/dev/agconti.com/scss/contact-form */
 footer {
+  width: 100%;
   position: absolute;
   bottom: 0;
-  font-size: 0.75em; }
-  /* line 86, /Users/administrator/dev/agconti.com/scss/contact-form */
-  footer a {
+  font-size: 0.75em;
+  margin: 1.5em 2em; }
+  /* line 92, /Users/administrator/dev/agconti.com/scss/contact-form */
+  footer .navigation a {
     color: #991200; }
-    /* line 89, /Users/administrator/dev/agconti.com/scss/contact-form */
-    footer a:hover {
+    /* line 95, /Users/administrator/dev/agconti.com/scss/contact-form */
+    footer .navigation a:hover {
       color: #e61b00;
       -webkit-transform: translateY(1%);
           -ms-transform: translateY(1%);
               transform: translateY(1%); }
-    /* line 94, /Users/administrator/dev/agconti.com/scss/contact-form */
-    footer a:focus, footer a:active {
+    /* line 100, /Users/administrator/dev/agconti.com/scss/contact-form */
+    footer .navigation a:focus, footer .navigation a:active {
       color: #66ebff; }

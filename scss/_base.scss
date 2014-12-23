@@ -7,6 +7,7 @@ html {
 body{
     background: $red--dark;
     color: $white;
+    min-height: 100%;
 }
 /* ==========================================================================
    Base Styles
@@ -25,7 +26,6 @@ body{
         padding: 0;
         margin: 0;
         min-height: 100%;
-
     }
     li {
         display: inline-block;
