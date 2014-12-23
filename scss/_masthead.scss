@@ -2,16 +2,8 @@
    Masthead Styles
    ========================================================================== */
 .masthead {
-    ul { 
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    li {
-        display: inline-block;
-    }
-    i {
-        position: relative;
+    .navigation {
+        text-align: center;
     }
 }
 
@@ -20,43 +12,4 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.masthead__navigation{
-    margin-top: 2em;
-    text-align: center;
-    a {
-        display: inline-block;
-        color: $red;
-        padding: 0 0.25em;
-        font-size: 2.5em;
-        text-decoration: none;
-        transition: 0.25s all ease;
-        &:hover {
-            color: $red--bright;
-            transform: translateY(-5px);
-        }
-        &:focus,
-        &:active{
-            color: $blue;
-        }
-    }  
-}
-
-.btn.contact-button {
-    padding: 1em 1.5em;
-    background-color: $red;
-    color: $red--dark;
-    text-decoration: none;
-    vertical-align: middle;
-    transition: all 0.15s ease;
-
-    &:hover {
-        background-color: $red--active;
-    }
-
-    &:focus,
-    &:active {
-        box-shadow: inset 0 4px 1px $red;
-    }
 }
