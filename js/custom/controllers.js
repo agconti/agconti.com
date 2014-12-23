@@ -7,7 +7,7 @@ function ContactFormController (Mandrill){
   this.senderName
   this.message
   this.send = function(){
-    Mandrill.send(this.email, this.message)
+    Mandrill.send(this.senderName, this.email, this.message)
   }
 }
 

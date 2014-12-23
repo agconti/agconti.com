@@ -504,8 +504,22 @@ body {
 /* line 5, /Users/administrator/dev/agconti.com/scss/masthead */
 .masthead .navigation {
   text-align: center; }
+  @media only screen and (max-width: 480px) {
+    .masthead .navigation {
+      width: 75%;
+      margin: 1em auto; } }
+@media only screen and (max-width: 480px) {
+  .masthead .fa-fw {
+    width: 100%; } }
+@media only screen and (max-width: 480px) {
+  .masthead .fa {
+    font-size: 1em; } }
+@media only screen and (max-width: 480px) {
+  .masthead li {
+    width: 32%;
+    margin: 0.5em 0; } }
 
-/* line 10, /Users/administrator/dev/agconti.com/scss/masthead */
+/* line 30, /Users/administrator/dev/agconti.com/scss/masthead */
 .masthead__inner {
   position: absolute;
   top: 50%;
@@ -582,31 +596,34 @@ body {
 
 /* line 73, /Users/administrator/dev/agconti.com/scss/contact-form */
 .send {
-  position: absolute;
-  bottom: -30%;
+  display: block;
   padding: 0.5em;
   font-size: 1.5em;
   width: 100%;
+  text-align: center;
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  text-align: center; }
+       box-sizing: border-box; }
 
-/* line 83, /Users/administrator/dev/agconti.com/scss/contact-form */
+/* line 82, /Users/administrator/dev/agconti.com/scss/contact-form */
 footer {
-  width: 93.75%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 1.5em 2em;
   position: absolute;
   bottom: 0;
   font-size: 0.75em; }
-  /* line 92, /Users/administrator/dev/agconti.com/scss/contact-form */
+  /* line 91, /Users/administrator/dev/agconti.com/scss/contact-form */
   footer .navigation a {
     color: #991200; }
-    /* line 95, /Users/administrator/dev/agconti.com/scss/contact-form */
+    /* line 94, /Users/administrator/dev/agconti.com/scss/contact-form */
     footer .navigation a:hover {
       color: #e61b00;
       -webkit-transform: translateY(1%);
           -ms-transform: translateY(1%);
               transform: translateY(1%); }
-    /* line 100, /Users/administrator/dev/agconti.com/scss/contact-form */
+    /* line 99, /Users/administrator/dev/agconti.com/scss/contact-form */
     footer .navigation a:focus, footer .navigation a:active {
       color: #66ebff; }
+  @media only screen and (max-width: 480px) {
+    footer {
+      text-align: center;
+      margin: 1em; } }

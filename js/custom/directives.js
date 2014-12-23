@@ -20,7 +20,7 @@ function slideChildrenIn(Velocity){
         , children = element.children()
       Velocity(children, { opacity: 0}, {duration:0, delay: 0}).then(function(){
         Velocity(children, 'transition.slideLeftIn', {
-            display: "inline"
+            display: "inline-block"
           , opactiy: 1
           , delay: animationDelay
           , duration: 500 + animationDelay

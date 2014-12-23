@@ -13,9 +13,9 @@ function MandrillService(){
       , "text": ""
     }
   };
-  var sendMessage = function(sender, message){
-    params.message.from_email = sender
-    params.message.text = [message, "Your Robot", sender].join("\n\n") 
+  var sendMessage = function(name, email, message){
+    params.message.from_email = email
+    params.message.text = [message, "Your Robot", email].join("\n\n") 
     return m.messages.send(params, function(res) {
       return res
     }, console.error)
