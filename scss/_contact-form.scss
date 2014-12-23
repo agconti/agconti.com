@@ -71,18 +71,17 @@
 }
 
 .send {
-    position: absolute;
-    bottom: -30%;
+    display: block;
     padding: 0.5em;
     font-size: 1.5em;
     width: 100%;
-    box-sizing: border-box;
     text-align: center;
+    box-sizing: border-box;
 }
 
 footer {
-    width: 93.75%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 1.5em 2em;
     position: absolute;
     bottom: 0;
     font-size: 0.75em;
@@ -101,5 +100,10 @@ footer {
                 color: darken($blue, 5%);
             }
         }
+    }
+
+    @media only screen and (max-width: 480px){
+       text-align: center;
+       margin: 1em;
     }
 }
