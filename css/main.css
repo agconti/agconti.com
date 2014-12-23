@@ -370,23 +370,26 @@ body {
   max-width: 100%;
   margin: 0 auto;
   opacity: 0; }
+  @media only screen and (max-width: 480px) {
+    .logo {
+      width: 70%; } }
 
-/* line 22, /Users/administrator/dev/agconti.com/scss/base */
+/* line 25, /Users/administrator/dev/agconti.com/scss/base */
 .navigation {
   margin-top: 2em; }
-  /* line 24, /Users/administrator/dev/agconti.com/scss/base */
+  /* line 27, /Users/administrator/dev/agconti.com/scss/base */
   .navigation ul {
     list-style: none;
     padding: 0;
     margin: 0;
     min-height: 100%; }
-  /* line 30, /Users/administrator/dev/agconti.com/scss/base */
+  /* line 33, /Users/administrator/dev/agconti.com/scss/base */
   .navigation li {
     display: inline-block; }
-  /* line 33, /Users/administrator/dev/agconti.com/scss/base */
+  /* line 36, /Users/administrator/dev/agconti.com/scss/base */
   .navigation i {
     position: relative; }
-  /* line 36, /Users/administrator/dev/agconti.com/scss/base */
+  /* line 39, /Users/administrator/dev/agconti.com/scss/base */
   .navigation a {
     display: inline-block;
     color: #b31800;
@@ -395,20 +398,20 @@ body {
     text-decoration: none;
     -webkit-transition: 0.25s all ease;
             transition: 0.25s all ease; }
-    /* line 43, /Users/administrator/dev/agconti.com/scss/base */
+    /* line 46, /Users/administrator/dev/agconti.com/scss/base */
     .navigation a:hover {
       color: #ff2200;
       -webkit-transform: translateY(-5px);
           -ms-transform: translateY(-5px);
               transform: translateY(-5px); }
-    /* line 48, /Users/administrator/dev/agconti.com/scss/base */
+    /* line 51, /Users/administrator/dev/agconti.com/scss/base */
     .navigation a:focus, .navigation a:active {
       color: #80eeff; }
-  /* line 52, /Users/administrator/dev/agconti.com/scss/base */
+  /* line 55, /Users/administrator/dev/agconti.com/scss/base */
   .navigation img {
     vertical-align: middle; }
 
-/* line 57, /Users/administrator/dev/agconti.com/scss/base */
+/* line 60, /Users/administrator/dev/agconti.com/scss/base */
 .btn {
   padding: 1em 1.5em;
   background-color: #b31800;
@@ -417,10 +420,10 @@ body {
   vertical-align: middle;
   -webkit-transition: all 0.15s ease;
           transition: all 0.15s ease; }
-  /* line 65, /Users/administrator/dev/agconti.com/scss/base */
+  /* line 68, /Users/administrator/dev/agconti.com/scss/base */
   .btn:hover {
     background-color: #cc1800; }
-  /* line 70, /Users/administrator/dev/agconti.com/scss/base */
+  /* line 73, /Users/administrator/dev/agconti.com/scss/base */
   .btn:focus, .btn:active {
     background-color: #ff2200;
     box-shadow: inset 0 4px 1px #b31800; }
