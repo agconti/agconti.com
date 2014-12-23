@@ -593,11 +593,11 @@ body {
 
 /* line 83, /Users/administrator/dev/agconti.com/scss/contact-form */
 footer {
-  width: 100%;
+  width: 93.75%;
+  margin: 0 auto;
   position: absolute;
   bottom: 0;
-  font-size: 0.75em;
-  margin: 1.5em 2em; }
+  font-size: 0.75em; }
   /* line 92, /Users/administrator/dev/agconti.com/scss/contact-form */
   footer .navigation a {
     color: #991200; }
