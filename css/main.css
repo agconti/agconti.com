@@ -6,12 +6,14 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+/* line 22, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
+/* line 32, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 audio, canvas, video {
   display: inline-block; }
 
@@ -19,6 +21,7 @@ audio, canvas, video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
+/* line 41, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -27,6 +30,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
+/* line 52, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 [hidden], template {
   display: none; }
 
@@ -38,6 +42,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+/* line 66, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -49,6 +54,7 @@ html {
 /**
  * Remove default margin.
  */
+/* line 76, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 body {
   margin: 0; }
 
@@ -58,18 +64,21 @@ body {
 /**
  * Remove the gray background color from active links in IE 10.
  */
+/* line 88, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 a {
   background: transparent; }
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
+/* line 96, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 a:focus {
   outline: thin dotted; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
+/* line 105, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 a:active, a:hover {
   outline: 0; }
 
@@ -80,6 +89,7 @@ a:active, a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 118, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -87,24 +97,28 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
+/* line 127, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 136, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 b, strong {
   font-weight: bold; }
 
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
+/* line 144, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 dfn {
   font-style: italic; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
+/* line 152, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -113,6 +127,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
+/* line 162, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 mark {
   background: #ff0;
   color: #000; }
@@ -120,6 +135,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
+/* line 174, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1em; }
@@ -127,33 +143,39 @@ code, kbd, pre, samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
+/* line 183, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 pre {
   white-space: pre-wrap; }
 
 /**
  * Set consistent quote types.
  */
+/* line 191, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
+/* line 199, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
+/* line 208, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
+/* line 215, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 sup {
   top: -0.5em; }
 
+/* line 219, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 sub {
   bottom: -0.25em; }
 
@@ -163,12 +185,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
+/* line 231, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 img {
   border: 0; }
 
 /**
  * Correct overflow displayed oddly in IE 9.
  */
+/* line 239, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -178,6 +202,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
+/* line 251, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 figure {
   margin: 0; }
 
@@ -187,6 +212,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
+/* line 263, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -196,6 +222,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
+/* line 274, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 legend {
   border: 0;
   /* 1 */
@@ -207,6 +234,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 288, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 button, input, select, textarea {
   font-family: inherit;
   /* 1 */
@@ -219,6 +247,7 @@ button, input, select, textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+/* line 300, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 button, input {
   line-height: normal; }
 
@@ -228,6 +257,7 @@ button, input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
+/* line 312, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 button, select {
   text-transform: none; }
 
@@ -238,6 +268,7 @@ button, select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
+/* line 327, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -247,6 +278,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
+/* line 337, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 button[disabled], html input[disabled] {
   cursor: default; }
 
@@ -254,6 +286,7 @@ button[disabled], html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
+/* line 347, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 input[type="checkbox"], input[type="radio"] {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
@@ -266,6 +299,7 @@ input[type="checkbox"], input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
+/* line 358, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -277,12 +311,14 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
+/* line 371, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
+/* line 380, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -291,6 +327,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
+/* line 390, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 textarea {
   overflow: auto;
   /* 1 */
@@ -303,6 +340,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
+/* line 403, /Users/administrator/dev/agconti.com/scss/vendor/normalize */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -313,9 +351,11 @@ table {
 /* ==========================================================================
    Root Styles
    ========================================================================== */
+/* line 4, /Users/administrator/dev/agconti.com/scss/base */
 html {
   height: 100%; }
 
+/* line 7, /Users/administrator/dev/agconti.com/scss/base */
 body {
   background: #601b10;
   color: white; }
@@ -323,28 +363,87 @@ body {
 /* ==========================================================================
    Base Styles
    ========================================================================== */
+/* line 14, /Users/administrator/dev/agconti.com/scss/base */
 .logo {
   display: block;
   max-width: 100%;
   margin: 0 auto;
   opacity: 0; }
 
+/* line 21, /Users/administrator/dev/agconti.com/scss/base */
+.navigation {
+  margin-top: 2em; }
+  /* line 23, /Users/administrator/dev/agconti.com/scss/base */
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-height: 100%; }
+  /* line 30, /Users/administrator/dev/agconti.com/scss/base */
+  .navigation li {
+    display: inline-block; }
+  /* line 33, /Users/administrator/dev/agconti.com/scss/base */
+  .navigation i {
+    position: relative; }
+  /* line 36, /Users/administrator/dev/agconti.com/scss/base */
+  .navigation a {
+    display: inline-block;
+    color: #b31800;
+    padding: 0 0.25em;
+    font-size: 2.5em;
+    text-decoration: none;
+    -webkit-transition: 0.25s all ease;
+            transition: 0.25s all ease; }
+    /* line 43, /Users/administrator/dev/agconti.com/scss/base */
+    .navigation a:hover {
+      color: #ff2200;
+      -webkit-transform: translateY(-5px);
+          -ms-transform: translateY(-5px);
+              transform: translateY(-5px); }
+    /* line 48, /Users/administrator/dev/agconti.com/scss/base */
+    .navigation a:focus, .navigation a:active {
+      color: #80eeff; }
+  /* line 52, /Users/administrator/dev/agconti.com/scss/base */
+  .navigation img {
+    vertical-align: middle; }
+
+/* line 57, /Users/administrator/dev/agconti.com/scss/base */
+.btn {
+  padding: 1em 1.5em;
+  background-color: #b31800;
+  color: #601b10;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-transition: all 0.15s ease;
+          transition: all 0.15s ease; }
+  /* line 65, /Users/administrator/dev/agconti.com/scss/base */
+  .btn:hover {
+    background-color: #cc1800; }
+  /* line 70, /Users/administrator/dev/agconti.com/scss/base */
+  .btn:focus, .btn:active {
+    background-color: #ff2200;
+    box-shadow: inset 0 4px 1px #b31800; }
+
 /* ==========================================================================
    Helpers Styles
    ========================================================================== */
+/* line 4, /Users/administrator/dev/agconti.com/scss/helpers */
 .group {
   margin: 0 auto;
   max-width: 1200px;
   width: 93.75%; }
 
+/* line 10, /Users/administrator/dev/agconti.com/scss/helpers */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
 
+/* line 15, /Users/administrator/dev/agconti.com/scss/helpers */
 .clearfix:after {
   clear: both; }
 
-.center-to-content {
+/* line 18, /Users/administrator/dev/agconti.com/scss/helpers */
+.center {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -353,18 +452,60 @@ body {
           transform: translate(-50%, -50%);
   width: 100%; }
 
+/* line 3, /Users/administrator/dev/agconti.com/scss/page-transitions */
+.rotate-right {
+  -webkit-transition: all 1s;
+          transition: all 1s;
+  min-height: 862px; }
+  /* line 7, /Users/administrator/dev/agconti.com/scss/page-transitions */
+  .rotate-right.ng-enter {
+    -webkit-animation: moveFromRightFade 0.7s ease both;
+            animation: moveFromRightFade 0.7s ease both;
+    background-color: #641b11; }
+  /* line 12, /Users/administrator/dev/agconti.com/scss/page-transitions */
+  .rotate-right.ng-leave {
+    -webkit-animation: moveToRightFade 0.7s ease both;
+            animation: moveToRightFade 0.7s ease both;
+    background-color: #5c1810; }
+
+@-webkit-keyframes moveToRightFade {
+
+  /* line 21, /Users/administrator/dev/agconti.com/scss/page-transitions */
+  to {
+    opacity: 0.3;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); } }
+
+@keyframes moveToRightFade {
+
+  /* line 21, /Users/administrator/dev/agconti.com/scss/page-transitions */
+  to {
+    opacity: 0.3;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); } }
+
+@-webkit-keyframes moveFromRightFade {
+  /* line 29, /Users/administrator/dev/agconti.com/scss/page-transitions */
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); } }
+
+@keyframes moveFromRightFade {
+  /* line 29, /Users/administrator/dev/agconti.com/scss/page-transitions */
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); } }
+
 /* ==========================================================================
    Masthead Styles
    ========================================================================== */
-.masthead ul {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-.masthead li {
-  display: inline-block; }
-.masthead i {
-  position: relative; }
+/* line 5, /Users/administrator/dev/agconti.com/scss/masthead */
+.masthead .navigation {
+  text-align: center; }
 
+/* line 10, /Users/administrator/dev/agconti.com/scss/masthead */
 .masthead__inner {
   position: absolute;
   top: 50%;
@@ -373,45 +514,14 @@ body {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
 
-.masthead__navigation {
-  margin-top: 2em;
-  text-align: center; }
-  .masthead__navigation a {
-    display: inline-block;
-    color: #b31800;
-    padding: 0 0.25em;
-    font-size: 2.5em;
-    text-decoration: none;
-    -webkit-transition: 0.25s all ease;
-            transition: 0.25s all ease; }
-    .masthead__navigation a:hover {
-      color: #ff2200;
-      -webkit-transform: translateY(-5px);
-          -ms-transform: translateY(-5px);
-              transform: translateY(-5px); }
-    .masthead__navigation a:focus, .masthead__navigation a:active {
-      color: #80eeff; }
-
-.btn.contact-button {
-  padding: 1em 1.5em;
-  background-color: #b31800;
-  color: #601b10;
-  text-decoration: none;
-  vertical-align: middle;
-  -webkit-transition: all 0.15s ease;
-          transition: all 0.15s ease; }
-  .btn.contact-button:hover {
-    background-color: #cc1800; }
-  .btn.contact-button:focus, .btn.contact-button:active {
-    box-shadow: inset 0 4px 1px #b31800; }
-
 /* ==========================================================================
    Contact Form Styles
    ========================================================================== */
+/* line 5, /Users/administrator/dev/agconti.com/scss/contact-form */
 .contact-form {
-  text-align: center;
-  margin: 2em;
+  margin: 0 auto;
   color: #b31800; }
+  /* line 10, /Users/administrator/dev/agconti.com/scss/contact-form */
   .contact-form input, .contact-form textarea {
     display: none;
     width: 100%;
@@ -427,19 +537,72 @@ body {
     color: #cc1800;
     -moz-box-sizing: border-box;
          box-sizing: border-box; }
+    /* line 25, /Users/administrator/dev/agconti.com/scss/contact-form */
     .contact-form input:focus, .contact-form input:active, .contact-form textarea:focus, .contact-form textarea:active {
       border-color: #cc1800;
       box-shadow: inset 0.5em 0px #cc1800; }
+  /* line 30, /Users/administrator/dev/agconti.com/scss/contact-form */
   .contact-form textarea {
     resize: none; }
+    /* line 33, /Users/administrator/dev/agconti.com/scss/contact-form */
+    .contact-form textarea::-webkit-input-placeholder {
+      color: rgba(204, 23, 0, 0.65); }
+    /* line 36, /Users/administrator/dev/agconti.com/scss/contact-form */
+    .contact-form textarea::-moz-placeholder {
+      color: rgba(204, 23, 0, 0.65); }
+  /* line 40, /Users/administrator/dev/agconti.com/scss/contact-form */
   .contact-form label {
     display: none;
     font-size: 2.5em;
-    padding: 0.25em 0;
+    margin: 0.37em 0;
     font-weight: bold; }
+  /* line 49, /Users/administrator/dev/agconti.com/scss/contact-form */
+  .contact-form.ng-invalid input, .contact-form.ng-invalid textarea {
+    border-color: #ff341a; }
+  /* line 52, /Users/administrator/dev/agconti.com/scss/contact-form */
+  .contact-form.ngvalid .form-button {
+    color: #b31800; }
 
-.contact-input--animaton.ng-enter {
-  display: block; }
+/* line 57, /Users/administrator/dev/agconti.com/scss/contact-form */
+.contact-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em; }
 
-.contact-input--animaton.ng-leave {
-  display: none; }
+/* line 63, /Users/administrator/dev/agconti.com/scss/contact-form */
+.form-button {
+  background: transparent;
+  color: #800f00;
+  padding: 1.5em;
+  position: absolute;
+  right: 0; }
+
+/* line 71, /Users/administrator/dev/agconti.com/scss/contact-form */
+.send {
+  position: absolute;
+  bottom: -30%;
+  padding: 0.5em;
+  font-size: 1.5em;
+  width: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  text-align: center; }
+
+/* line 81, /Users/administrator/dev/agconti.com/scss/contact-form */
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75em; }
+  /* line 86, /Users/administrator/dev/agconti.com/scss/contact-form */
+  footer a {
+    color: #991200; }
+    /* line 89, /Users/administrator/dev/agconti.com/scss/contact-form */
+    footer a:hover {
+      color: #e61b00;
+      -webkit-transform: translateY(1%);
+          -ms-transform: translateY(1%);
+              transform: translateY(1%); }
+    /* line 94, /Users/administrator/dev/agconti.com/scss/contact-form */
+    footer a:focus, footer a:active {
+      color: #66ebff; }

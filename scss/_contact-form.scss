@@ -3,8 +3,7 @@
    ========================================================================== */
 
 .contact-form {
-    text-align: center;
-    margin: 2em;
+    margin: 0 auto;
     color: $red;
 
     input, 
@@ -30,21 +29,70 @@
     }
     textarea {
         resize: none;
+
+        &::-webkit-input-placeholder { 
+            color: rgba($red--active, 0.65);
+        }
+        &::-moz-placeholder { 
+            color: rgba($red--active, 0.65);
+        }
     }
     label{
         display: none;
         font-size: 2.5em;
-        padding: 0.25em 0;
+        margin: 0.37em 0;
         font-weight: bold;
     }
 
+    // Contact form validation  
+    &.ng-invalid input,
+    &.ng-invalid textarea{
+        border-color: lighten($red, 20%);
+    }
+    &.ngvalid .form-button{
+        color: $red;
+    }
+
 }
-//=============================================================//
-// Contact form animatons
-//=============================================================//
-.contact-input--animaton.ng-enter{
-    display: block;
+.contact-button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1em;
 }
-.contact-input--animaton.ng-leave{
-    display: none;
+.form-button{
+    background: transparent;
+    color: darken($red, 10%);
+    padding: 1.5em;
+    position: absolute; 
+    right: 0;
+}
+
+.send {
+    position: absolute;
+    bottom: -30%;
+    padding: 0.5em;
+    font-size: 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75em;
+
+    a {
+        color: darken($red, 5%);
+
+         &:hover {
+            color: darken($red--bright, 5%);
+            transform: translateY(1%);
+        }
+        &:focus,
+        &:active{
+            color: darken($blue, 5%);
+        }
+    }
 }
