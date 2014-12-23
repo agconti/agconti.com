@@ -48,9 +48,11 @@
     &.ng-invalid input,
     &.ng-invalid textarea{
         border-color: lighten($red, 20%);
+        z-index: -1;
     }
     &.ngvalid .form-button{
         color: $red;
+        z-index: 0;
     }
 
 }
@@ -79,20 +81,25 @@
 }
 
 footer {
+    width: 100%;
     position: absolute;
     bottom: 0;
     font-size: 0.75em;
+    margin: 1.5em 2em;
 
-    a {
-        color: darken($red, 5%);
+    .navigation {
 
-         &:hover {
-            color: darken($red--bright, 5%);
-            transform: translateY(1%);
-        }
-        &:focus,
-        &:active{
-            color: darken($blue, 5%);
+        a {
+            color: darken($red, 5%);
+
+             &:hover {
+                color: darken($red--bright, 5%);
+                transform: translateY(1%);
+            }
+            &:focus,
+            &:active{
+                color: darken($blue, 5%);
+            }
         }
     }
 }

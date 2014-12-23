@@ -16,14 +16,9 @@ function MandrillService(){
   var sendMessage = function(sender, message){
     params.message.from_email = sender
     params.message.text = message
-    console.log(params)
     return m.messages.send(params, function(res) {
-      console.log(res)
       return res
-    }, function(err) {
-      console.log(err)
-      return err
-    })
+    }, console.error)
   }
 
   return {
