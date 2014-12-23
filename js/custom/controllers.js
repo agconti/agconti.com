@@ -8,11 +8,6 @@ function ContactFormController (Mandrill){
   this.message
   this.send = function(){
     Mandrill.send(this.email, this.message)
-    console.log({
-      email: this.email
-    , name: this.senderName
-    , message: this.message
-    })
   }
 }
 

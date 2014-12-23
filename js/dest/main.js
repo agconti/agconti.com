@@ -3194,11 +3194,6 @@ function ContactFormController (Mandrill){
   this.message
   this.send = function(){
     Mandrill.send(this.email, this.message)
-    console.log({
-      email: this.email
-    , name: this.senderName
-    , message: this.message
-    })
   }
 }
 
@@ -3226,13 +3221,16 @@ function slideChildrenIn(Velocity){
     restrict: 'A'
   , link: function(scope, element, attrs){
       var animationDelay = Number(attrs.delay) || 350
-
-      Velocity(element.children(), 'transition.slideLeftIn', {
-          display: "inline"
-        , delay: animationDelay
-        , duration: 500
-        , stagger: 100       
-        , drag: true
+        , children = element.children()
+      Velocity(children, { opacity: 0}, {duration:0, delay: 0}).then(function(){
+        Velocity(children, 'transition.slideLeftIn', {
+            display: "inline"
+          , opactiy: 1
+          , delay: animationDelay
+          , duration: 500 + animationDelay
+          , stagger: 100       
+          , drag: true
+        })
       })
     }
   }
@@ -3268,15 +3266,10 @@ function MandrillService(){
   };
   var sendMessage = function(sender, message){
     params.message.from_email = sender
-    params.message.text = message
-    console.log(params)
+    params.message.text = [message, "Your Robot", sender].join("\n\n") 
     return m.messages.send(params, function(res) {
-      console.log(res)
       return res
-    }, function(err) {
-      console.log(err)
-      return err
-    })
+    }, console.error)
   }
 
   return {
