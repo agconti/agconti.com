@@ -450,8 +450,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 100%; }
+          transform: translate(-50%, -50%); }
 
 /* line 3, /Users/administrator/dev/agconti.com/scss/page-transitions */
 .rotate-right {
