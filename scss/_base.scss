@@ -7,6 +7,7 @@ html {
 body{
     background: $red--dark;
     color: $red;
+    height: 100%;
     min-height: 100%;
 }
 /* ==========================================================================
@@ -42,6 +43,7 @@ body{
         padding: 0 0.25em;
         font-size: 2.5em;
         text-decoration: none;
+        outline: none;
         transition: 0.25s all ease;
         &:hover {
             color: $red--bright;
