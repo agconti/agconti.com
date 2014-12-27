@@ -581,11 +581,11 @@ body {
       .contact-form label {
         font-size: 3em; } }
   /* line 56, /Users/administrator/dev/agconti.com/scss/contact-form */
-  .contact-form.ng-invalid > input, .contact-form.ng-invalid textarea {
+  .contact-form.ng-invalid input, .contact-form.ng-invalid textarea {
     border-color: #ff341a;
     z-index: -1; }
     /* line 61, /Users/administrator/dev/agconti.com/scss/contact-form */
-    .contact-form.ng-invalid > input:focus, .contact-form.ng-invalid > input:active, .contact-form.ng-invalid textarea:focus, .contact-form.ng-invalid textarea:active {
+    .contact-form.ng-invalid input:focus, .contact-form.ng-invalid input:active, .contact-form.ng-invalid textarea:focus, .contact-form.ng-invalid textarea:active {
       box-shadow: inset 0.5em 0px #e61b00; }
   /* line 66, /Users/administrator/dev/agconti.com/scss/contact-form */
   .contact-form.ngvalid .form-button {
@@ -634,11 +634,8 @@ footer {
     color: #991200; }
     /* line 113, /Users/administrator/dev/agconti.com/scss/contact-form */
     footer .navigation a:hover {
-      color: #e61b00;
-      -webkit-transform: translateY(1%);
-          -ms-transform: translateY(1%);
-              transform: translateY(1%); }
-    /* line 118, /Users/administrator/dev/agconti.com/scss/contact-form */
+      color: #e61b00; }
+    /* line 117, /Users/administrator/dev/agconti.com/scss/contact-form */
     footer .navigation a:focus, footer .navigation a:active {
       color: #66ebff; }
   @media only screen and (max-width: 480px) {

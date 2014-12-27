@@ -52,7 +52,7 @@
     }
 
     // Contact form validation  
-    &.ng-invalid > input,
+    &.ng-invalid input,
     &.ng-invalid textarea{
         border-color: lighten($red, 20%);
         z-index: -1;
@@ -112,7 +112,6 @@ footer {
 
              &:hover {
                 color: darken($red--bright, 5%);
-                transform: translateY(1%);
             }
             &:focus,
             &:active{
