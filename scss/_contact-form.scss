@@ -52,10 +52,9 @@
     }
 
     // Contact form validation  
-    &.ng-invalid input,
-    &.ng-invalid textarea{
+    &.ng-dirty.ng-invalid input,
+    &.ng-dirty.ng-invalid textarea{
         border-color: lighten($red, 20%);
-        z-index: -1;
 
         &:focus,
         &:active {
@@ -63,9 +62,11 @@
         }
 
     }
-    &.ngvalid .form-button{
-        color: $red;
-        z-index: 0;
+    &.ng-invalid .form-button {
+        opacity: 0;
+    }
+    &.ng-valid .form-button{
+        opacity: 1;
     }
 
 }
@@ -82,6 +83,8 @@
     position: absolute; 
     right: 0;
     font-size: 1.5em;
+    transition: all 0.25s ease,
+                opacity 0.5s ease;
 
     @media only screen and (max-width: 480px){
         padding: 1.19em;

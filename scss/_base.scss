@@ -3,10 +3,10 @@
    ========================================================================== */
 html {
     height: 100%;
+    color: $red;
+    background: $red--dark;
 }
 body{
-    background: $red--dark;
-    color: $red;
     height: 100%;
     min-height: 100%;
 }
@@ -69,6 +69,7 @@ body{
 
     &:hover {
         background-color: $red--active;
+        color: $red--dark;
     }
 
     &:focus,
