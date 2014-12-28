@@ -5,6 +5,7 @@
 angular.module('myApp', [
     'ngAnimate'
   , 'ui.router'
+  , 'ngMessages'
   , 'appControllers' 
   , 'appServices'
   , 'appDirectives'

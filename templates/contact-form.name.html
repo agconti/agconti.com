@@ -1,3 +1,8 @@
 <label fade-in class="clearfix">Hey, what's your name friend?</label>
 <input fade-in type="text" name="senderName" ng-model="form.senderName" ng-minlength="1" required>
 <a class="btn form-button" ui-sref="contact.email"><i class="fa fa-chevron-right"></i></a>
+<div ng-messages="contactForm.senderName.$error">
+    <div ng-message="required">Please enter your name.</div>
+    <div ng-message="minlength">Is that really your name?</div>
+</div>
+<pre>contactForm.senderName.$error = {{ contactForm.senderName.$error | json }}</pre>

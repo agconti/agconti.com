@@ -1,3 +1,7 @@
 <label fade-in class="clearfix">Your email, I'll need that.</label>
-<input fade-in type="email" name="email" ng-model="form.email" required>
+<input fade-in type="email" name="senderEmail" ng-model="form.email" required>
 <a class="btn form-button" ui-sref="contact.message"><i class="fa fa-chevron-right"></i></a>
+<div ng-messages="contactForm.senderEmail.$error">
+    <div ng-message="required">I need you email so I can get back to you.</div>
+</div>
+<pre>contactForm.senderEmail.$error = {{ contactForm.senderEmail.ng-invalid | json }}</pre>
