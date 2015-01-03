@@ -577,32 +577,31 @@ body {
   .contact-form label {
     display: none;
     font-size: 3.75em;
-    margin: 0.37em 0;
-    font-weight: bold; }
+    margin: 0.37em 0; }
     @media only screen and (max-width: 480px) {
       .contact-form label {
         font-size: 3em; } }
-  /* line 57, /Users/conti/dev/agconti.com/scss/contact-form */
+  /* line 56, /Users/conti/dev/agconti.com/scss/contact-form */
   .contact-form.ng-dirty.ng-invalid input, .contact-form.ng-dirty.ng-invalid textarea {
     border-color: #ff341a; }
-    /* line 61, /Users/conti/dev/agconti.com/scss/contact-form */
+    /* line 60, /Users/conti/dev/agconti.com/scss/contact-form */
     .contact-form.ng-dirty.ng-invalid input:focus, .contact-form.ng-dirty.ng-invalid input:active, .contact-form.ng-dirty.ng-invalid textarea:focus, .contact-form.ng-dirty.ng-invalid textarea:active {
       box-shadow: inset 0.5em 0px #e61b00; }
-  /* line 66, /Users/conti/dev/agconti.com/scss/contact-form */
+  /* line 65, /Users/conti/dev/agconti.com/scss/contact-form */
   .contact-form.ng-invalid .form-button {
     opacity: 0; }
-  /* line 69, /Users/conti/dev/agconti.com/scss/contact-form */
+  /* line 68, /Users/conti/dev/agconti.com/scss/contact-form */
   .contact-form.ng-valid .form-button {
     opacity: 1; }
 
-/* line 74, /Users/conti/dev/agconti.com/scss/contact-form */
+/* line 73, /Users/conti/dev/agconti.com/scss/contact-form */
 .contact-button {
   position: absolute;
   left: 0;
   right: 0;
   margin: 1em; }
 
-/* line 80, /Users/conti/dev/agconti.com/scss/contact-form */
+/* line 79, /Users/conti/dev/agconti.com/scss/contact-form */
 .form-button {
   background: transparent;
   color: #800f00;
@@ -617,7 +616,7 @@ body {
       padding: 1.3em;
       font-size: 1.25em; } }
 
-/* line 96, /Users/conti/dev/agconti.com/scss/contact-form */
+/* line 95, /Users/conti/dev/agconti.com/scss/contact-form */
 .send {
   display: block;
   padding: 0.5em;
@@ -626,7 +625,7 @@ body {
   text-align: center;
   box-sizing: border-box; }
 
-/* line 105, /Users/conti/dev/agconti.com/scss/contact-form */
+/* line 104, /Users/conti/dev/agconti.com/scss/contact-form */
 footer {
   width: 100%;
   padding: 1.5em 2em;
@@ -634,16 +633,29 @@ footer {
   bottom: 0;
   font-size: 0.75em;
   box-sizing: border-box; }
-  /* line 115, /Users/conti/dev/agconti.com/scss/contact-form */
+  /* line 114, /Users/conti/dev/agconti.com/scss/contact-form */
   footer .navigation a {
     color: #991200; }
-    /* line 118, /Users/conti/dev/agconti.com/scss/contact-form */
+    /* line 117, /Users/conti/dev/agconti.com/scss/contact-form */
     footer .navigation a:hover {
       color: #e61b00; }
-    /* line 122, /Users/conti/dev/agconti.com/scss/contact-form */
+    /* line 121, /Users/conti/dev/agconti.com/scss/contact-form */
     footer .navigation a:focus, footer .navigation a:active {
       color: #66ebff; }
   @media only screen and (max-width: 480px) {
     footer {
-      text-align: center;
-      padding: 1.5em 0; } }
+      display: none; } }
+
+/* line 132, /Users/conti/dev/agconti.com/scss/contact-form */
+.nav--mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1em;
+  opacity: 0; }
+  /* line 139, /Users/conti/dev/agconti.com/scss/contact-form */
+  .nav--mobile img {
+    width: 2em; }
+  @media only screen and (max-width: 480px) {
+    .nav--mobile {
+      opacity: 1; } }
