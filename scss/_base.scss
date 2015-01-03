@@ -1,10 +1,13 @@
 /* ==========================================================================
    Root Styles
    ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Lato:900);
+
 html {
     height: 100%;
     color: $red;
     background: $red--dark;
+    font-family: 'Lato', sans-serif;
 }
 body{
     height: 100%;
