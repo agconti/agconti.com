@@ -32,6 +32,7 @@
     }
     textarea {
         resize: none;
+        border: none;
 
         &::-webkit-input-placeholder { 
             color: rgba($red--active, 0.65);
@@ -42,9 +43,8 @@
     }
     label{
         display: none;
-        font-size: 4em;
+        font-size: 3.75em;
         margin: 0.37em 0;
-        font-weight: bold;
 
         @media only screen and (max-width: 480px){
            font-size: 3em;
@@ -79,7 +79,7 @@
 .form-button{
     background: transparent;
     color: darken($red, 10%);
-    padding: 1.25em;
+    padding: 1.3em;
     position: absolute; 
     right: 0;
     font-size: 1.5em;
@@ -87,7 +87,7 @@
                 opacity 0.5s ease;
 
     @media only screen and (max-width: 480px){
-        padding: 1.19em;
+        padding: 1.3em;
         font-size: 1.25em;
     }
 }
