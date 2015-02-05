@@ -2,12 +2,12 @@ var gulp = require('gulp')
   , browserSync = require('browser-sync')
   , reload = browserSync.reload
   , changed = require('gulp-changed')
-  , concat = require("gulp-concat")
   , autoprefixer = require('gulp-autoprefixer')
   , sass = require('gulp-sass')
+  , concat = require('gulp-concat')
   , uglify = require('gulp-uglify')
 
-// browser-sync task for starting the server.
+
 gulp.task('browser-sync', function () {
   browserSync({
     server: {
@@ -16,37 +16,31 @@ gulp.task('browser-sync', function () {
   })
 })
 
-// javascript task
-gulp.task('js', function () {
-  return gulp.src([
-        'js/vendor/**/*.js'
-      , 'js/custom/**/*.js'
-      ])
-      .pipe(changed('js/dest'))
-      .pipe(uglify())
-      .pipe(concat("main.js"))
-      .pipe(gulp.dest('js/dest'))
+gulp.task('bs-reload', function () {
+    browserSync.reload()
 })
 
-// Sass task, will run when any SCSS files change & BrowserSync
-// will auto-update browsers
 gulp.task('sass', function () {
-  return gulp.src([
-      'scss/**/*.scss'
-    , 'scss/**/*.css'
-    ])
-    .pipe(changed('css'))
-    .pipe(sass({
-      errLogToConsole: true
-    , sourceComments : 'normal'
-    }))
+  return gulp.src('scss/**/*.scss')
+    .pipe(changed('public'))
+    .pipe(sass().on('error', console.error.bind(console)))
     .pipe(autoprefixer('last 2 versions'))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('public'))
+    .pipe(reload({stream:true}))
 })
 
-// Default task to be run with `gulp`
-gulp.task('default', ['js', 'sass', 'browser-sync'], function () {
-  gulp.watch(['./**/*.html'], [reload])
-  gulp.watch(['scss/**/*.scss'], ['sass', reload])
-  gulp.watch(['js/custom/**/*.js', 'js/vendor/**/*.js'], ['js', reload])
-});
+gulp.task('js', function () {
+  return gulp.src('js/**/*.js')
+    .pipe(changed('public'))
+    .pipe(uglify())
+    .pipe(concat("main.js"))
+    .pipe(gulp.dest('public'))
+    .pipe(reload({stream:true}))
+})
+
+
+gulp.task('default', ['sass', 'browser-sync'], function(){
+  gulp.watch(['scss/*.scss'], ['sass'])
+  gulp.watch(['js/**/*.js'], ['js'])
+  gulp.watch('*.html', ['bs-reload'])
+})
