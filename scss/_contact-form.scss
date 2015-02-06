@@ -5,6 +5,7 @@
 .contact-form {
     margin: 0 auto;
     color: $red;
+    position: relative;
 
     input, 
     textarea {
@@ -78,6 +79,7 @@
 }
 .form-button{
     background: transparent;
+    outline: none;
     color: darken($red, 10%);
     padding: 1.3em;
     position: absolute; 
@@ -85,6 +87,7 @@
     font-size: 1.5em;
     transition: all 0.25s ease,
                 opacity 0.5s ease;
+
 
     @media only screen and (max-width: 480px){
         padding: 1.3em;

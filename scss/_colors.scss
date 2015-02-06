@@ -5,7 +5,7 @@ $red: hsl(8, 100%, 35%);
 $red--bright: hsl(8, 100%, 50%);
 $red--active: lighten($red, 5);
 
-$red--dark: hsl(8, 71%, 22%);
+$red--dark: hsl(8, 80%, 22%);
 $red--dark--deactive: darken($red--dark, 1%);
 $red--dark--active: lighten($red--dark, 1%);
 

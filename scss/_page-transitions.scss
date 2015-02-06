@@ -2,7 +2,6 @@
 
 .rotate-right{
     transition: all 1s;
-    min-height: 862px;
     
     &.ng-enter {
         animation: moveFromRightFade .7s ease both;
