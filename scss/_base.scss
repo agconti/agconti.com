@@ -2,12 +2,14 @@
    Root Styles
    ========================================================================== */
 @import url(http://fonts.googleapis.com/css?family=Lato:900);
+@import url(http://fonts.googleapis.com/css?family=Lato:400);
 
 html {
     height: 100%;
     color: $red;
     background: $red--dark;
     font-family: 'Lato', sans-serif;
+    font-weight: 900;
 }
 body{
     height: 100%;
@@ -16,6 +18,11 @@ body{
 /* ==========================================================================
    Base Styles
    ========================================================================== */
+
+section{
+   display: block;
+}
+
 .logo{
     display: block;
     max-width: 100%;
