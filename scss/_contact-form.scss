@@ -3,6 +3,8 @@
    ========================================================================== */
 
 .contact-form {
+    width: 100%
+    margin: 10% 0;
     margin: 0 auto;
     color: $red;
     position: relative;
@@ -29,6 +31,7 @@
         }
         @media only screen and (max-width: 480px){
            font-size: 2em;
+           margin: 0;
         }
     }
     textarea {
