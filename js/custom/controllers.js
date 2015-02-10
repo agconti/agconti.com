@@ -30,6 +30,7 @@ function ScrollController ($document, $timeout){
 }
 
 function ContactFormController (Mandrill){
+  this.pageTransitionClass = 'rotate-right'
   this.email
   this.senderName
   this.message

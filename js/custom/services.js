@@ -1,4 +1,7 @@
 // app services
+;(function(){
+'use strict'
+
 function MandrillService(){
 
   // create a new instance of the Mandrill class with your API key
@@ -35,4 +38,5 @@ function VelocityService(){
 angular.module("appServices", [])
   .factory('Mandrill', MandrillService)
   .factory('Velocity', VelocityService)
+})()
 
