@@ -57,7 +57,7 @@ function flicker(Velocity){
 
 
 /**
- * Controlls user's scrolling between two sections. 
+ * Controlls user's scrolling between two classes. 
  * @param $document
  * @param $timeout
  */
@@ -76,7 +76,6 @@ function scroll($document, $timeout){
       notScrolling = false
       $timeout(function(){
         notScrolling = true
-        console.log('timing')
       }, scrollOptions.duration * 2)
     }
 
@@ -91,14 +90,12 @@ function scroll($document, $timeout){
         return $(swingToClass).velocity('scroll', scrollOptions)
       }
     }
-    // $(element).bind('scroll', swingContentToClass) 
     $document.bind('scroll', swingContentToClass) 
   }
 
   return {
     restrict: 'A'
   , link: function(scope, element, attrs){
-      console.log('smooth')
       smoothScroll(element, attrs.swingToClass, attrs.swingFromClass)
     }
   }
