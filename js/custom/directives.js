@@ -82,15 +82,11 @@ function scroll($document, $timeout){
 
     var swingContentToClass = function(){
       if (atswingToClass && notScrolling){
-        console.log('top')
-        console.log(swingFromClass)
 
         canSwing()
         return $(swingFromClass).velocity('scroll', scrollOptions)  
       } else if(!atswingToClass && notScrolling) {
-        console.log('bottom')
-        console.log(swingToClass)
-
+        
         canSwing()
         return $(swingToClass).velocity('scroll', scrollOptions)
       }
