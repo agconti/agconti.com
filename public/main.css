@@ -483,6 +483,7 @@ section {
    Contact Form Styles
    ========================================================================== */
 .contact-form {
+  width: 100%;
   margin: 0 auto;
   color: #b31800;
   position: relative; }
@@ -505,7 +506,8 @@ section {
       box-shadow: inset 0.5em 0px #cc1800; }
     @media only screen and (max-width: 480px) {
       .contact-form input, .contact-form textarea {
-        font-size: 2em; } }
+        font-size: 2em;
+        margin: 0; } }
   .contact-form textarea {
     resize: none;
     border: none; }
